@@ -112,6 +112,27 @@ export default {
     line30: "Four-burner cooktop, electric kettle",
     line31: "Retrieving data. Wait a few seconds and try to cut or copy again.",
   },
+  mongoliaPage: {
+    head_title: "Mongolia Projects",
+    title1: "Olonlog EXE IT School (Olonlog EXE)",
+    text1_1: "Since 2010, we have been supporting the education sector in Mongolia and have executed a project to construct school buildings for a total of 3,500 students. In 2018, we established Olonlog EXE IT School, which offers Mongolia's first IT curriculum for elementary school students. The school currently has nearly 500 excellent students from 1st grade to high school, diligently studying to become a driving force in Mongolia's digital age.",
+    text1_2: "Since its establishment, the school has consistently won numerous medals in national competitions for IT, mathematics, and English, as well as in Ulaanbaatar city competitions. Some of our students have been awarded full scholarships from educational institutions and have gone on to study in the United States, Canada, and Japan. Our students believe they can become internationally top-level professionals, leading not only in Mongolia but also in the world.",
+    title2: "Turquoise Finance",
+    text2_1: "EXE Corporation is one of the major institutional investors and also serves as a board member of BDSec JSC, Mongolia's largest securities company.",
+    text2_2: "Through its local subsidiary, Turquoise Finance, a financial service company licensed by the Mongolian Financial Regulatory Commission, we conduct business in the Mongolian financial market together with BDSec. This includes underwriting stocks and bonds on the Mongolian Stock Exchange and the Over-the-Counter (OTC) market.",
+    text2_3: "In addition to underwriting activities, Turquoise Finance directly issues loans to local businesses, and acting as a market maker in the non-banking financial market sector.",
+
+  },
+  aboutExe: {
+    title1: "About",
+    text1: "We, EXE Corporation, were born on August 6, 1991. Over the past 30 years, amid the tumultuous changes of the last decade of the 20th century and the first two decades of the 21st century, we have been steadily moving forward as a boutique investment company, keeping pace with the flow of the times.",
+    button: "More details here"
+  },
+  recruitment: {
+    title: "Internship & Recruitment Information",
+    text: "EXE Corporation operates projects in Myanmar and Mongolia and regularly offers internships as well as recruiting new graduates and mid-career employees.",
+    button: "More details here",
+  },
 
   // overseasProjectPage: {
   //
