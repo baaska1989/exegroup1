@@ -15,23 +15,22 @@ const Footer = () => {
         <div className="flex flex-grow fixed z-10 justify-end">
           <div className="dropdown relative">
             <ul
-              className="dropdown-menu min-w-max absolute bg-white text-base z-50 float-left py-2 list-none text-left
-    shadow-lg m-8 hidden bg-clip-padding border-none"
+              className="dropdown-menu min-w-max absolute bg-white text-base z-50 float-left py-2 list-none text-left shadow-lg m-8 hidden bg-clip-padding border-none"
               aria-labelledby="dropdownMenuButton1tx"
             >
               <li>
-                <Link href="/">
-                  <a className="dropdown-item px-2 md:px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
-                    日本語
-                  </a>
-                </Link>
+                {/*<Link href="/">*/}
+                {/*  <a className="dropdown-item px-2 md:px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">*/}
+                {/*    日本語*/}
+                {/*  </a>*/}
+                {/*</Link>*/}
               </li>
               <li>
-                <Link href="/en">
-                  <a className="dropdown-item px-2 md:px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">
-                    {t.contact}
-                  </a>
-                </Link>
+                {/*<Link href="/en">*/}
+                {/*  <a className="dropdown-item px-2 md:px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">*/}
+                {/*    {t.contact}*/}
+                {/*  </a>*/}
+                {/*</Link>*/}
               </li>
               {/* {router.locales.map((l) => (
                   <li key={l}>
@@ -51,12 +50,12 @@ const Footer = () => {
 
 
       <div className="sticky active:border-[3px] active:border-r-0 border-cyan-600 active:rounded my-[3px] duration-150 ">
-        <Link href="#"> 問い合わせ </Link>
+        {/*<Link href="/contact"> {t.contact} </Link>*/}
       </div>
       <div className="bg-darkblue grid gap-0 sm:grid-cols-2 md:grid-cols-7 lg:grid-cols-10 w-full p-4 md:p-12 text-xs md:text-base">
         <div className="sm:col-span-1 md:col-span-3 lg:col-span-4 max-w-lg md:pl-4 mt-4 md:p-4">
           <h2 className="ml-4 underline text-white text-base mb-8">
-            お問い合わせ
+            {t.footer.contactUs}
           </h2>
 
           <ul className="text-gray-300 pl-4 list-none w-full">
@@ -72,8 +71,7 @@ const Footer = () => {
                 <path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z" />
               </svg>
               <li className="font-bold text-base">
-                〒102-0083 東京都千代田区麹町1-10-5
-                <br /> 澤田麹町ビル6階
+                {t.footer.address}
               </li>
             </div>
             <div className="flex mt-5">
@@ -116,13 +114,13 @@ const Footer = () => {
 
         <div className="font-bold max-w-lg mt-8 md:col-span-2 lg:col-span-2 pl-4">
           <h2 className="mb-5 text-white text-base underline">
-            エクセについて
+            {t.footer.about}
           </h2>
           <ul className="text-gray-300 font-light list-none">
             <li className="nav-item">
               <Link href="/about">
                 <a className="font-bold py-2 flex items-center text-base text-white hover:text-sky-300">
-                  <span className="">会社概要</span>
+                  <span className="">{t.footer.companyOverview}</span>
                 </a>
               </Link>
             </li>
@@ -130,33 +128,33 @@ const Footer = () => {
         </div>
 
         <div className="font-bold max-w-lg pl-4 pb-4 mt-4 md:p-4 md:col-span-2 lg:col-span-2">
-          <h2 className="underline mb-5 text-white text-md ">プロジェクト</h2>
+          <h2 className="underline mb-5 text-white text-md ">{t.footer.projects}</h2>
           <ul className="text-gray-300 font-light list-none">
             <li className="nav-item">
               <Link href="/overseas">
                 <a className="font-bold py-2 flex items-center text-base text-white hover:text-sky-300">
-                  <span className="">海外プロジェクト</span>
+                  <span className="">{t.footer.overseasProjects}</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link href="/myanmar">
                 <a className="font-bold py-2 flex items-center text-base text-white hover:text-sky-300">
-                  <span className="">- ミャンマー</span>
+                  <span className="">- {t.footer.myanmar}</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link href="/mongolia">
                 <a className="font-bold py-2 flex items-center text-base text-white hover:text-sky-300">
-                  <span className="">- モンゴル</span>
+                  <span className="">- {t.footer.mongolia}</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link href="/domestic">
                 <a className="font-bold py-2 flex items-center text-base text-white hover:text-sky-300">
-                  <span className="">国内プロジェクト</span>
+                  <span className="">{t.footer.domesticProjects}</span>
                 </a>
               </Link>
             </li>
@@ -164,20 +162,20 @@ const Footer = () => {
         </div>
         <div className="font-bold max-w-lg pl-4 mt-4 md:p-4 md:ml-2 sm:col-span-1 md:col-span-3 lg:col-span-2">
           <h2 className="mb-5 text-white text-base underline ">
-            インターンシップ・採用
+            {t.footer.inter}
           </h2>
           <ul className="text-gray-300 font-light list-none">
             <li className="nav-item">
               <Link href="/intership">
                 <a className="font-bold py-2 flex items-center text-base text-white hover:text-sky-300">
-                  <span className=" ">インターンシップ</span>
+                  <span className=" ">{t.footer.internship}</span>
                 </a>
               </Link>
             </li>
             <li className="nav-item">
               <Link href="/recruit">
                 <a className="font-bold py-2 flex items-center text-base text-white hover:text-sky-300">
-                  <span className="">新卒・中途採用</span>
+                  <span className="">{t.footer.newGrad}</span>
                 </a>
               </Link>
             </li>
@@ -193,7 +191,7 @@ const Footer = () => {
       </a>
 
       <div className="text-center text-sm font-bold bg-darkblue text-gray-300 p-2">
-        Copyright © 2022 株式会社エクセ All Rights Reserved.
+        {t.footer.copyRight}
       </div>
     </div>
   );

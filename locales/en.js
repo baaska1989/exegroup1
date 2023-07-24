@@ -66,7 +66,6 @@ export default {
     row13_1: '2016',
     row13_2: 'Established Olonlog EXE, an educational business company in Mongolia, expanding into the education business.',
   },
-
   myanmarPage: {
     head_title: 'Myanmar Projects',
     title1: 'Sakura Tower',
@@ -134,6 +133,23 @@ export default {
     button: "More details here",
   },
 
+  footer: {
+    contactUs: "Contact Us",
+    address: "Retrieving data. Wait a few seconds and try to cut or copy again.",
+    phone: "(81) 3-3288-2371",
+    email: "info@exegroup.co.jp",
+    about: "About",
+    companyOverview: "Company Overview",
+    projects: "Projects",
+    overseasProjects: "Overseas Projects",
+    myanmar: "Myanmar",
+    mongolia: "Mongolia",
+    domesticProjects: "Domestic Projects",
+    inter: "Internship & Recruitment",
+    internship: "Internship",
+    newGrad: "New Graduates & Mid-Career Recruitment",
+    copyRight: "Copyright © 2022 Excel Co., Ltd. All Rights Reserved."
+  }
   // overseasProjectPage: {
   //
   // }
