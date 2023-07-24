@@ -57,7 +57,7 @@ const myanmar = () => {
   return (
     <>
     <Head>
-      <title>{}</title>
+      <title>{t.myanmarPage.head_title}</title>
     </Head>
     <MainLayout>
       <div
@@ -120,18 +120,19 @@ const myanmar = () => {
             <div className="grid grid-cols-1 md:grid-cols-2">
               <div className="font-normal text-base mt-4 text-gray-500 col-span-1">
               {t.myanmarPage.line1}<br></br>-
-              {t.myanmarPage.line2}<br></br>-
-              {t.myanmarPage.line3}<br></br>-
-              {t.myanmarPage.line4}
-                <br></br>- {t.myanmarPage.line5}
-                <br></br>- {t.myanmarPage.line6}
+              &nbsp;{t.myanmarPage.line2}<br></br>-
+              &nbsp;{t.myanmarPage.line3}<br></br>-
+              &nbsp;{t.myanmarPage.line4}<br></br>- 
+              &nbsp;{t.myanmarPage.line5}<br></br>- 
+              &nbsp;{t.myanmarPage.line6}
               </div>
               <div className="font-normal text-base mt-4 text-gray-500 col-span-1">
-                - {t.myanmarPage.line7}<br></br>-
-                {t.myanmarPage.line8}<br></br>-
-                {t.myanmarPage.line9}<br></br>- {t.myanmarPage.line10}
-                <br></br>- {t.myanmarPage.line11}<br></br>-
-                {t.myanmarPage.line12}
+                - &nbsp;{t.myanmarPage.line7}<br></br>-
+                &nbsp;{t.myanmarPage.line8}<br></br>-
+                &nbsp;{t.myanmarPage.line9}<br></br>- 
+                &nbsp;{t.myanmarPage.line10}<br></br>- 
+                &nbsp;{t.myanmarPage.line11}<br></br>-
+                &nbsp;{t.myanmarPage.line12}
               </div>
             </div>
           </div>
@@ -179,27 +180,29 @@ const myanmar = () => {
               {t.myanmarPage.title4}
                 <div className="font-normal text-base mt-8 sm:ml-5 block">
                   {t.myanmarPage.line13}<br></br>-
-                  {t.myanmarPage.line14}<br></br>-
-                  {t.myanmarPage.line15}
-                  <br></br>-   {t.myanmarPage.line16}
-                  <br></br>-   {t.myanmarPage.line17}<br></br>-
-                  {t.myanmarPage.line18}<br></br>-   {t.myanmarPage.line19}<br></br>-   {t.myanmarPage.line20}
-                  <br></br>-   {t.myanmarPage.line21}<br></br>
-                  {t.myanmarPage.line22}<br></br>
-                  -   {t.myanmarPage.line23}<br></br>-   {t.myanmarPage.line24}<br></br>-
-                  コンビニエンスストア
+                  &nbsp;{t.myanmarPage.line14}<br></br>-
+                  &nbsp;{t.myanmarPage.line15}<br></br>-   
+                  &nbsp;{t.myanmarPage.line16}<br></br>-   
+                  &nbsp;{t.myanmarPage.line17}<br></br>-
+                  &nbsp;{t.myanmarPage.line18}<br></br>-   
+                  &nbsp;{t.myanmarPage.line19}<br></br>-   
+                  &nbsp;{t.myanmarPage.line20}<br></br>-   
+                  &nbsp;{t.myanmarPage.line21}<br></br>-
+                  &nbsp;{t.myanmarPage.line22}<br></br>-   
+                  &nbsp;{t.myanmarPage.line23}<br></br>-   
+                  &nbsp;{t.myanmarPage.line24}<br></br>
                 </div>
               </div>
               <div className="col-span-1">
-                調度品
+              {t.myanmarPage.title5}
                 <div className="font-normal text-base mt-8">
-                  - 個別操作可能な空調設備<br></br>- IDD電話<br></br>-
-                  専用インターネットアクセス<br></br>- 多チャンネル衛星放送
-                  <br></br>- 金庫<br></br>- 4口調理台、電動湯沸かし器<br></br>-
-                  各種家電（洗濯乾燥機、冷凍冷蔵庫、炊飯器、オーブ<br></br>
-                  &nbsp;&nbsp;ン機能付き電子レンジ、トースター、電気ポット、コー
-                  <br></br>
-                  &nbsp;&nbsp;ヒーメーカー、アイロン、ヘア･ドライヤー、ビデオ、小型ステレオ）
+                  - &nbsp;{t.myanmarPage.line25}<br></br>-
+                  &nbsp;{t.myanmarPage.line26}<br></br>- 
+                  &nbsp;{t.myanmarPage.line27}<br></br>- 
+                  &nbsp;{t.myanmarPage.line28}<br></br>- 
+                  &nbsp;{t.myanmarPage.line29}<br></br>-
+                  &nbsp;{t.myanmarPage.line30}<br></br>-
+                  &nbsp;{t.myanmarPage.line31}
                 </div>
               </div>
             </div>

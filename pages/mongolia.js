@@ -1,5 +1,8 @@
 import React from "react";
-
+import en from '../locales/en';
+import jp from '../locales/jp';
+import { useRouter } from "next/router";
+import Head from 'next/head';
 import MainLayout from "../layout/MainLayout";
 import ImageGallery from "react-image-gallery";
 
@@ -58,7 +61,14 @@ const images2 = [
 ];
 
 const mongolia = () => {
+  const router = useRouter();
+  const { locale } = router;
+  const t = locale === 'jp' ? jp : en;
   return (
+    <>
+    <Head>
+      <title>{t.mongoliaPage.head}</title>
+    </Head>
     <MainLayout>
       <div
         className="relative overflow-hidden bg-cover bg-no-repeat h-[16rem] md:h-[20rem] lg:h-[28rem]"
@@ -73,7 +83,7 @@ const mongolia = () => {
         >
           <div className="flex h-full items-center justify-center text-center text-white">
             <h1 className="mb-6 text-2xl md:text-4xl font-bold">
-              モンゴルのプロジェクト
+              {t.mongoliaPage.head_title}
             </h1>
           </div>
         </div>
@@ -82,19 +92,16 @@ const mongolia = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="px-4 md:pl-10 col-span-1">
             <h1 className="font-bold text-2xl md:text-3xl text-gray-700 mt-8 text-center md:text-left">
-              Olonlog EXE IT学校（オロンログ・エグゼ）
+              {t.mongoliaPage.title1}
             </h1>
             <div className="lg:flex block">
               <div className="flex text-justify">
                 <div className="text-lg font-medium w-auto lg:h-auto md:py-4 pb-8 text-gray-500 max-w-4xl py-4 indent-4">
-                  2010
-                  年からモンゴルの教育現場を支援し、総生徒数3,500人の校舎ビル建設プロジェクトを実行し、2018年にモンゴル初のITカリキュラムを小学生から教えるOlonlog
-                  EXE
-                  IT学校（オロンログ・エグゼ）を設立し現在運営をしています。小学校1年生から高校生まで500人近くの優秀な生徒が通い、デジタル時代のモンゴルのパワーになるために勤勉に勉強をしています。
+                  {t.mongoliaPage.text1_1}
                   <br></br>
                   <br></br>
                   <p>
-                    設立以来、IT、数学、英語の全国大会やウランバートル市の大会などで毎年数多くのメダルを獲得しており、教育機関からの全額奨学金を受け米国、カナダ、日本へ留学する生徒も輩出しています。本校の生徒たちは、モンゴルだけでなく、世界をリードする国際的にトップ・レベルのプロフェッショナルになれると信じています。
+                  {t.mongoliaPage.text1_2}
                   </p>
                   <br></br>
                   Olonlog EXE School of Ulaanbaatar<br></br>
@@ -139,21 +146,20 @@ const mongolia = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="px-4 md:pl-10 col-span-1">
             <h1 className="font-bold text-2xl md:text-3xl text-gray-700 mt-8 text-center md:text-left">
-              ターコイズ・ファイナンス
+            {t.mongoliaPage.title2}
             </h1>
             <div className="lg:flex block">
               <div className="flex text-justify">
                 <div className="text-lg font-medium w-auto lg:h-auto md:py-4 pb-8 text-gray-500 max-w-4xl py-4 indent-4">
                   <p>
-                    株式会社エクセは、モンゴル最大手証券会社であるBDSec
-                    JSCの機関投資家大株主の一つであり、役員会に取締役も務めています。
+                  {t.mongoliaPage.text2_1}
                   </p>
                   <br></br>
                   <p>
-                    モンゴル金融庁の免許を受けた金融サービス会社である現地法人子会社であるターコイズ・ファイナンスを通じて、モンゴル証券取引所や店頭市場における株式・債券の引受を行うなど、BDSecと共にモンゴルの金融市場で事業を行っています。。
+                  {t.mongoliaPage.text2_2}
                   </p>
                   <br></br>
-                  引受業務以外に、ターコイズ・ファイナンスは現地の事業法人に直接ローンを発行し、非銀行部門の金融市場のマーケット・メーカーとしての役割も果たしています。
+                  {t.mongoliaPage.text2_3}
                   <br></br>
                 </div>
               </div>
@@ -165,6 +171,8 @@ const mongolia = () => {
         </div>
       </div>
     </MainLayout>
+    </>
+    
   );
 };
 

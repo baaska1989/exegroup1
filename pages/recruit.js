@@ -1,5 +1,8 @@
 import React from "react";
 import MainLayout from "../layout/MainLayout";
+import en from '../locales/en';
+import jp from '../locales/jp';
+import { useRouter } from "next/router";
 import { Fragment, useState } from "react";
 import {
   Accordion,
@@ -8,6 +11,9 @@ import {
 } from "@material-tailwind/react";
 
 export default function recruit() {
+  const router = useRouter();
+  const { locale } = router;
+  const t = locale === 'jp' ? jp : en;
   const [open, setOpen] = useState(1);
 
   const handleOpen = (value) => {

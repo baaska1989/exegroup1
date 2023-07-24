@@ -22,13 +22,13 @@ export default function Home()
           <title>{t.home}</title>
       </Head>
       <MainLayout>
-      <Slider />
-      <Aboutexe />
-      <Recruitment />
-      <Domesticprojects />
-      <Sharedhouse />
-      <Projects />
-    </MainLayout>
+       <Slider />
+        <Aboutexe />
+        <Recruitment />
+        <Domesticprojects />
+        <Sharedhouse />
+        <Projects />
+      </MainLayout>
       </>
   );
 }

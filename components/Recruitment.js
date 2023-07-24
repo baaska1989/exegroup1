@@ -1,8 +1,14 @@
 import React from "react";
 import Link from "next/link";
+import en from '../locales/en';
+import jp from '../locales/jp';
+import { useRouter } from "next/router";
 import LazyLoad from "react-lazy-load";
 
 const Recruitment = () => {
+  const router = useRouter();
+  const { locale } = router;
+  const t = locale === 'jp' ? jp : en;
   return (
     <div
       className="p-12 text-center relative overflow-hidden bg-no-repeat bg-cover bg-fixed"
@@ -18,11 +24,11 @@ const Recruitment = () => {
             <h4 className="font-normal text-md mb-2 text-black"></h4>
             <div>
               <h2 className="font-semibold text-2xl md:text-3xl text-gray-800 pb-8 ">
-                インターンシップ・採用情報
+                {t.recruitment.title}
               </h2>
             </div>
             <p className="font-light text-black text-xl">
-              エクセはミャンマー、モンゴルでプロジェクトを運営しており、インターンシップ、新卒・中途採用も随時行っております。
+              {t.recruitment.text}
             </p>
             <Link href="/recruit">
               <a
@@ -31,7 +37,7 @@ const Recruitment = () => {
                 data-mdb-ripple="true"
                 data-mdb-ripple-color="light"
               >
-                詳細はこちら
+                {t.recruitment.button}
               </a>
             </Link>
           </div>
