@@ -1,0 +1,162 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.sticky {
+  background: #f4336d;
+  position: fixed;
+  top: 35%;
+  right: 0;
+  border-radius: 2px 0 0 2px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+  padding: 18px 10px;
+  outline: none;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  z-index: 50;
+}
+
+.sticky2 {
+  background: #1d054d;
+  border: 1px solid #fff;
+  position: absolute;
+  top: 1%;
+  right: 0;
+  border-radius: 2px 0 0 2px;
+  font-size: 13px;
+  font-weight: 400;
+  color: #fff;
+  margin-right: 10px;
+  padding: 6px 6px;
+  border-radius: 12px;
+  outline: none;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  z-index: 50;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+/* .dropdown1 {
+  position: relative;
+  display: inline-block;
+  margin-left: -34px;
+} */
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  left: 35px;
+  background-color: #0e1449;
+  min-width: 120px;
+  padding: 1px 1px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.to-top-button.show {
+  opacity: 1;
+  visibility: visible;
+}
+.to-top-button {
+  position: fixed;
+  bottom: 50px;
+  right: 40px;
+  transition: opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+  bottom: 0;
+}
+.to-top-button i {
+  font-size: 18px;
+  color: #1c0765;
+  transition: color 0.5s, visibility 0.5s;
+}
+
+.carousel-caption {
+  position: absolute;
+  top: 160px;
+  left: 100px;
+}
+
+.image-gallery-slide img {
+  width: 100%;
+  height: auto;
+  max-height: 100vh;
+  object-fit: cover;
+  overflow: hidden;
+  object-position: center center;
+}
+
+.image-gallery-thumbnail {
+  width: 20% !important;
+}
+.fullscreen .image-gallery-slide img {
+  max-height: 100vh;
+}
+
+.image-gallery-left-nav .image-gallery-svg,
+.image-gallery-right-nav .image-gallery-svg {
+  height: 60px;
+  width: 30px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 300px) {
+  .image-gallery {
+    width: 100%;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .image-gallery {
+    width: 100%;
+    height: auto;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .image-gallery {
+    width: 100%;
+    height: auto;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .image-gallery {
+    width: 100%;
+    height: auto;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .image-gallery {
+    width: 460px;
+    height: auto;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1025px) {
+  .image-gallery {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* 2023-05-16 */
+@media only screen and (min-width: 500px) and (max-width: 1200px) {
+  .about-text {
+    padding-right: 3rem;
+    padding-left: 3rem;
+  }
+}

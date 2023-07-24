@@ -1,0 +1,19 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    // Other rules
+    "@next/next/no-img-element": "off",
+    "rules": {
+      "jsx-a11y/alt-text": [
+        2,
+        {
+          "elements": ["img", "object", "area", "input[type=\"image\"]"],
+          "img": ["Image"],
+          "object": ["Object"],
+          "area": ["Area"],
+          "input[type=\"image\"]": ["InputImage"]
+        }
+      ]
+    }
+  }
+}
