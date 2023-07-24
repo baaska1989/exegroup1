@@ -2,7 +2,7 @@
   "name": "exegroup",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://group.exe.mn",
+  "homepage": "http://exegroup.exe.mn",
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
