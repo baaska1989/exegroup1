@@ -17,7 +17,7 @@ export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   return (
       <>
-        <div style={{marginTop: "40px"}} className="sticky2 active:border-[3px] active:border-r-0 border-cyan-600 active:rounded mt-[10px] my-[3px] hidden lg:block">
+        <div style={{marginTop: "30px", marginRight: "70px"}} className="sticky2 active:border-[3px] active:border-r-0 border-cyan-600 active:rounded mt-[10px] my-[3px] lg:block">
           <span style={{marginTop: "-10px"}}>🌐</span>
           <select
               onChange={changeLanguage}
@@ -29,8 +29,8 @@ export default function Navbar({ fixed }) {
           </select>
           {/*<Link href="#"> 🌐 言語 {t('app_title')} </Link>*/}
         </div>
-        <nav
-            className="relative flex flex-wrap items-center justify-start py-3"
+
+        <nav className="relative flex flex-wrap items-center justify-start py-3"
             style={{ backgroundColor: "#0e1447" }}
         >
           <div className="container pl-8 mx-auto flex flex-wrap items-center justify-start ml-0">
