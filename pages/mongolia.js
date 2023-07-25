@@ -65,59 +65,59 @@ const mongolia = () => {
   const { locale } = router;
   const t = locale === 'jp' ? jp : en;
   return (
-    <>
-    <Head>
-      <title>{t.mongoliaPage.head}</title>
-    </Head>
-    <MainLayout>
-      <div
-        className="relative overflow-hidden bg-cover bg-no-repeat h-[16rem] md:h-[20rem] lg:h-[28rem]"
-        style={{
-          backgroundPosition: "50%",
-          backgroundImage: 'url("/assets/img/mongolia1.jpg")',
-        }}
-      >
-        <div
-          className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"
-          style={{ backgroundColor: "rgba(0, 0, 0, 0)" }}
-        >
-          <div className="flex h-full items-center justify-center text-center text-white">
-            <h1 className="mb-6 text-2xl md:text-4xl font-bold">
-              {t.mongoliaPage.head_title}
-            </h1>
-          </div>
-        </div>
-      </div>
-      <div className="max-w-[1200px] mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="px-4 md:pl-10 col-span-1">
-            <h1 className="font-bold text-2xl md:text-3xl text-gray-700 mt-8 text-center md:text-left">
-              {t.mongoliaPage.title1}
-            </h1>
-            <div className="lg:flex block">
-              <div className="flex text-justify">
-                <div className="text-lg font-medium w-auto lg:h-auto md:py-4 pb-8 text-gray-500 max-w-4xl py-4 indent-4">
-                  {t.mongoliaPage.text1_1}
-                  <br></br>
-                  <br></br>
-                  <p>
-                  {t.mongoliaPage.text1_2}
-                  </p>
-                  <br></br>
-                  Olonlog EXE School of Ulaanbaatar<br></br>
-                  <br></br>
-                  Tumurchin Avenue 7/1, Chingeltei district, Ulaanbaatar 15171,
-                  Mongolia<br></br>
-                  Tel: (976) 9999 8306 / E-mail: info@exe.edu.mn<br></br>
-                </div>
+      <>
+        <Head>
+          <title>{t.mongolia}</title>
+        </Head>
+        <MainLayout>
+          <div
+              className="relative overflow-hidden bg-cover bg-no-repeat h-[16rem] md:h-[20rem] lg:h-[28rem]"
+              style={{
+                backgroundPosition: "50%",
+                backgroundImage: 'url("/assets/img/mongolia1.jpg")',
+              }}
+          >
+            <div
+                className="absolute top-0 right-0 bottom-0 left-0 h-full w-full overflow-hidden bg-fixed"
+                style={{ backgroundColor: "rgba(0, 0, 0, 0)" }}
+            >
+              <div className="flex h-full items-center justify-center text-center text-white">
+                <h1 className="mb-6 text-2xl md:text-4xl font-bold">
+                  {t.mongoliaPage.head_title}
+                </h1>
               </div>
             </div>
           </div>
-          <div className="col-span-1 md:mt-12 md:p-8 p-4">
-            <ImageGallery items={images} className="gallery-thumb" />
-          </div>
-        </div>
-        {/* <div className="px-4">
+          <div className="max-w-[1200px] mx-auto">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="px-4 md:pl-10 col-span-1">
+                <h1 className="font-bold text-2xl md:text-3xl text-gray-700 mt-8 text-center md:text-left">
+                  {t.mongoliaPage.title1}
+                </h1>
+                <div className="lg:flex block">
+                  <div className="flex text-justify">
+                    <div className="text-lg font-medium w-auto lg:h-auto md:py-4 pb-8 text-gray-500 max-w-4xl py-4 indent-4">
+                      {t.mongoliaPage.text1_1}
+                      <br></br>
+                      <br></br>
+                      <p>
+                        {t.mongoliaPage.text1_2}
+                      </p>
+                      <br></br>
+                      Olonlog EXE School of Ulaanbaatar<br></br>
+                      <br></br>
+                      Tumurchin Avenue 7/1, Chingeltei district, Ulaanbaatar 15171,
+                      Mongolia<br></br>
+                      Tel: (976) 9999 8306 / E-mail: info@exe.edu.mn<br></br>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-span-1 md:mt-12 md:p-8 p-4">
+                <ImageGallery items={images} className="gallery-thumb" />
+              </div>
+            </div>
+            {/* <div className="px-4">
           <h1 className="font-bold text-2xl text-gray-700 mt-8 text-center md:text-left md:pl-4">
             ターコイズ・ファイナンス
           </h1>
@@ -143,36 +143,36 @@ const mongolia = () => {
             </div>
           </div>
         </div> */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-          <div className="px-4 md:pl-10 col-span-1">
-            <h1 className="font-bold text-2xl md:text-3xl text-gray-700 mt-8 text-center md:text-left">
-            {t.mongoliaPage.title2}
-            </h1>
-            <div className="lg:flex block">
-              <div className="flex text-justify">
-                <div className="text-lg font-medium w-auto lg:h-auto md:py-4 pb-8 text-gray-500 max-w-4xl py-4 indent-4">
-                  <p>
-                  {t.mongoliaPage.text2_1}
-                  </p>
-                  <br></br>
-                  <p>
-                  {t.mongoliaPage.text2_2}
-                  </p>
-                  <br></br>
-                  {t.mongoliaPage.text2_3}
-                  <br></br>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="px-4 md:pl-10 col-span-1">
+                <h1 className="font-bold text-2xl md:text-3xl text-gray-700 mt-8 text-center md:text-left">
+                  {t.mongoliaPage.title2}
+                </h1>
+                <div className="lg:flex block">
+                  <div className="flex text-justify">
+                    <div className="text-lg font-medium w-auto lg:h-auto md:py-4 pb-8 text-gray-500 max-w-4xl py-4 indent-4">
+                      <p>
+                        {t.mongoliaPage.text2_1}
+                      </p>
+                      <br></br>
+                      <p>
+                        {t.mongoliaPage.text2_2}
+                      </p>
+                      <br></br>
+                      {t.mongoliaPage.text2_3}
+                      <br></br>
+                    </div>
+                  </div>
                 </div>
+              </div>
+              <div className="col-span-1 md:mt-12 md:p-8 p-4">
+                <ImageGallery items={images2} className="gallery-thumb" />
               </div>
             </div>
           </div>
-          <div className="col-span-1 md:mt-12 md:p-8 p-4">
-            <ImageGallery items={images2} className="gallery-thumb" />
-          </div>
-        </div>
-      </div>
-    </MainLayout>
-    </>
-    
+        </MainLayout>
+      </>
+
   );
 };
 
