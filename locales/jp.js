@@ -5,6 +5,7 @@ export default {
     overseasProjects: '海外プロジェクト',
     domesticProjects: '国内プロジェクト',
     internship: 'インターンシップ・採用',
+    internship1: 'インターンシップ・採用',
     contact: 'お問い合わせ',
     slider1: '全てのマーケットには',
     slider2: '最高の投資機会がある',
