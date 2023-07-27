@@ -67,19 +67,19 @@ export default function recruit() {
               {/* table */}
               <div className="md:py-4 p-4">
                 <div className="md:mt-4 md:mx-20 border-2 border-gray-600 bg-darkblue h-14">
-                  <p className=" text-center text-lg font-medium text-gray-400 mt-3">
+                  <p className=" text-center text-lg font-medium text-white mt-3">
                     {t.recruitPage.table_title}
                   </p>
                 </div>
                 <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-t-darkblue border-r-darkblue border-l-darkblue items-center">
-                  <div className="text-center font-medium m-3">{t.recruitPage.row1_1}</div>
-                  <div className="p-2 col-span-2"> {t.recruitPage.row1_2}</div>
+                  <div className="text-center font-medium m-3 text-gray-500">{t.recruitPage.row1_1}</div>
+                  <div className="p-2 col-span-2m text-gray-500"> {t.recruitPage.row1_2}</div>
                 </div>
                 <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-t-darkblue border-r-darkblue border-l-darkblue items-center">
-                  <div className="text-center font-medium mt-48 md:mt-28">
+                  <div className="text-center font-medium mt-48 md:mt-28 text-gray-500">
                     {t.recruitPage.row2_1}
                   </div>
-                  <div className="p-2 col-span-2">
+                  <div className="p-2 col-span-2 text-gray-500">
                     ■ {t.recruitPage.row2_21} <br></br>
                     {t.recruitPage.row2_22}
                     <br></br>
@@ -94,83 +94,83 @@ export default function recruit() {
                   </div>
                 </div>
                 <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-gray-600 items-center">
-                  <div className="text-center font-medium m-3">{t.recruitPage.row3_1}</div>
-                  <div className="p-2 col-span-2">{t.recruitPage.row3_2}</div>
+                  <div className="text-center font-medium m-3 text-gray-500">{t.recruitPage.row3_1}</div>
+                  <div className="p-2 col-span-2 text-gray-500">{t.recruitPage.row3_2}</div>
                 </div>
                 <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-gray-600 items-center">
-                  <div className="text-center font-medium mt-8 md:m-6">
+                  <div className="text-center font-medium mt-8 md:m-6 text-gray-500">
                     {t.recruitPage.row4_1}
                   </div>
-                  <div className="p-2 col-span-2">
+                  <div className="p-2 col-span-2 text-gray-500">
                     {t.recruitPage.row4_21} <br></br>
                     {t.recruitPage.row4_22}
                   </div>
                 </div>
                 <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-gray-600 items-center">
-                  <div className="text-center font-medium mt-10 md:m-6">
+                  <div className="text-center font-medium mt-10 md:m-6 text-gray-500">
                     {t.recruitPage.row5_1}
                   </div>
-                  <div className="p-2 col-span-2">
+                  <div className="p-2 col-span-2 text-gray-500">
                     {t.recruitPage.row5_21}<br></br>
                     {t.recruitPage.row5_22}
                   </div>
                 </div>
                 <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-gray-600 items-center">
-                  <div className="text-center font-medium m-3">
+                  <div className="text-center font-medium m-3 text-gray-500">
                     {t.recruitPage.row6_1}
                   </div>
-                  <div className="p-2 col-span-2">
+                  <div className="p-2 col-span-2 text-gray-500">
                     {t.recruitPage.row6_2}
                   </div>
                 </div>
                 <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-gray-600 items-center">
-                  <div className="text-center font-medium m-6 md:m-3">{t.recruitPage.row7_1}</div>
-                  <div className="p-2 col-span-2">
+                  <div className="text-center font-medium m-6 md:m-3 text-gray-500">{t.recruitPage.row7_1}</div>
+                  <div className="p-2 col-span-2 text-gray-500">
                     {t.recruitPage.row7_2}
                   </div>
                 </div>
                 <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-gray-600 items-center">
-                  <div className="text-center font-medium m-3">
+                  <div className="text-center font-medium m-3 text-gray-500">
                     {t.recruitPage.row8_1}
                   </div>
-                  <div className="p-2 col-span-2">{t.recruitPage.row8_2}</div>
+                  <div className="p-2 col-span-2 text-gray-500">{t.recruitPage.row8_2}</div>
                 </div>
                 <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-gray-600 items-center">
-                  <div className="text-center font-medium m-3">{t.recruitPage.row9_1}</div>
-                  <div className="p-2 col-span-2">{t.recruitPage.row9_2}</div>
+                  <div className="text-center font-medium m-3 text-gray-500">{t.recruitPage.row9_1}</div>
+                  <div className="p-2 col-span-2 text-gray-500">{t.recruitPage.row9_2}</div>
                 </div>
                 <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-gray-600 items-center">
-                  <div className="text-center font-medium mt-7 md:m-3">
+                  <div className="text-center font-medium mt-7 md:m-3 text-gray-500">
                     {t.recruitPage.row10_1}
                   </div>
-                  <div className="p-2 col-span-2">
+                  <div className="p-2 col-span-2 text-gray-500">
                     {t.recruitPage.row10_2}
                   </div>
                 </div>
                 <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-gray-600 items-center">
-                  <div className="text-center font-medium mt-6 md:m-3">
+                  <div className="text-center font-medium mt-6 md:m-3 text-gray-500">
                     {t.recruitPage.row11_1}
                   </div>
-                  <div className="p-2 col-span-2">
+                  <div className="p-2 col-span-2 text-gray-500">
                     {t.recruitPage.row11_2}
                   </div>
                 </div>
                 <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-gray-600 items-center">
-                  <div className="text-center font-medium m-3">{t.recruitPage.row12_1}</div>
-                  <div className="p-2 col-span-2">{t.recruitPage.row12_2}</div>
+                  <div className="text-center font-medium m-3 text-gray-500">{t.recruitPage.row12_1}</div>
+                  <div className="p-2 col-span-2 text-gray-500">{t.recruitPage.row12_2}</div>
                 </div>
                 <div className="divide-darkblue grid grid-cols-3 divide-x md:mr-20 md:ml-20 border-t-2 border-r-2 border-l-2 border-gray-600 items-center">
-                  <div className="text-center font-medium mt-8 md:m-7">
+                  <div className="text-center font-medium mt-8 md:m-7 text-gray-500">
                     {t.recruitPage.row13_1}
                   </div>
-                  <div className="col-span-2 p-2">
+                  <div className="col-span-2 p-2 text-gray-500">
                     {t.recruitPage.row13_21} <br></br>
                     ※ {t.recruitPage.row13_22}
                   </div>
                 </div>
                 <div className="divide-darkblue grid grid-cols-3 divide-x md:mb-12 md:mx-20 border-2 border-gray-600 items-center">
-                  <div className="text-center font-medium m-3">{t.recruitPage.row14_1}</div>
-                  <div className="p-2 col-span-2">{t.recruitPage.row14_2}</div>
+                  <div className="text-center font-medium m-3 text-gray-500">{t.recruitPage.row14_1}</div>
+                  <div className="p-2 col-span-2 text-gray-500">{t.recruitPage.row14_2}</div>
                 </div>
               </div>
 
@@ -214,50 +214,50 @@ export default function recruit() {
                       <Fragment>
                         <Accordion open={open === 1}>
                           <AccordionHeader onClick={() => handleOpen(1)}>
-                            {t.recruitPage.question1}
+                            <p className="text-gray-700 font-medium"></p>{t.recruitPage.question1}
                           </AccordionHeader>
                           <AccordionBody>
-                            {t.recruitPage.answer1}
+                            <p className="text-gray-500 font-medium">{t.recruitPage.answer1}</p>
                           </AccordionBody>
                         </Accordion>
                         <Accordion open={open === 2}>
                           <AccordionHeader onClick={() => handleOpen(2)}>
-                            {t.recruitPage.question2}
+                            <p className="text-gray-700 font-medium">{t.recruitPage.question2}</p>
                           </AccordionHeader>
                           <AccordionBody>
-                            {t.recruitPage.answer2}
+                            <p className="text-gray-500 font-medium">{t.recruitPage.answer2}</p>
                           </AccordionBody>
                         </Accordion>
                         <Accordion open={open === 3}>
                           <AccordionHeader onClick={() => handleOpen(3)}>
-                            {t.recruitPage.question3}
+                            <p className="text-gray-700 font-medium">{t.recruitPage.question3}</p>
                           </AccordionHeader>
                           <AccordionBody>
-                            {t.recruitPage.answer3}
+                            <p className="text-gray-500 font-medium">{t.recruitPage.answer3}</p>
                           </AccordionBody>
                         </Accordion>
                         <Accordion open={open === 4}>
                           <AccordionHeader onClick={() => handleOpen(4)}>
-                            {t.recruitPage.question4}
+                            <p className="text-gray-700 font-medium">{t.recruitPage.question4}</p>
                           </AccordionHeader>
                           <AccordionBody>
-                            {t.recruitPage.answer4}
+                            <p className="text-gray-500 font-medium">{t.recruitPage.answer4}</p>
                           </AccordionBody>
                         </Accordion>
                         <Accordion open={open === 5}>
                           <AccordionHeader onClick={() => handleOpen(5)}>
-                            {t.recruitPage.question5}
+                            <p className="text-gray-700 font-medium">{t.recruitPage.question5}</p>
                           </AccordionHeader>
                           <AccordionBody>
-                            {t.recruitPage.answer5}
+                            <p className="text-gray-500 font-medium">{t.recruitPage.answer5}</p>
                           </AccordionBody>
                         </Accordion>
                         <Accordion open={open === 6}>
                           <AccordionHeader onClick={() => handleOpen(6)}>
-                            {t.recruitPage.question6}
+                            <p className="text-gray-700 font-medium">{t.recruitPage.question6}</p>
                           </AccordionHeader>
                           <AccordionBody>
-                            {t.recruitPage.answer6}
+                            <p className="text-gray-500 font-medium">{t.recruitPage.answer6}</p>
                           </AccordionBody>
                         </Accordion>
                       </Fragment>

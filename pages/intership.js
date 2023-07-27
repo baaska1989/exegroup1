@@ -100,7 +100,7 @@ export default function intership() {
           </div>
 
           <div className="flex flex-col mx-auto max-w-6xl">
-            <p className="font-sans font-light text-lg md:mt-8 mt-4 py-4 text-primary mx-5">
+            <p className="font-sans font-medium text-lg md:mt-8 mt-4 py-4 text-gray-500 mx-5">
               {t.internshipPage.text1}
             </p>
             <div className="px-4">
@@ -120,7 +120,7 @@ export default function intership() {
                           className="h-64 w-auto mx-auto hidden md:block"
                           loading="lazy"
                       />
-                      <div className="text-gray-600 md:px-20 px-4 py-5 md:text-lg text-sm">
+                      <div className="text-gray-500 md:px-20 px-4 py-5 md:text-lg text-sm">
                         {t.internshipPage.frame_text1_1}
                         <br /> ・{t.internshipPage.frame_text1_2}
                         <br /> ・{t.internshipPage.frame_text1_3}
@@ -155,12 +155,16 @@ export default function intership() {
                     className="h-12 w-[800px] mx-auto"
                     loading="lazy"
                 />
-
-                <img
+                {locale === 'jp' ? <img
                     src="/assets/img/text_box.png"
                     className="h-42  w-[800px] mx-auto p-2"
                     loading="lazy"
-                />
+                /> : <img
+                    src="/assets/img/text_box_en.png"
+                    className="h-42  w-[800px] mx-auto p-2"
+                    loading="lazy"
+                />}
+
                 <div className="py-8">
                   <div className="text-center md:text-xl text-gray-500">
                     {t.internshipPage.frame_title2_1}
@@ -183,18 +187,16 @@ export default function intership() {
                     className="h-56 w-56 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4"
                     loading="lazy"
                 />
-                <p className="md:pl-4 text-primary items-center py-4">
-                  {t.internshipPage.text1_1}<br></br>
-                  {t.internshipPage.text1_2}
-                  <br></br>
+                <p className="md:pl-4 text-gray-500 items-center py-4">
+                  {t.internshipPage.text1_1}<br></br><br></br>
+                  {t.internshipPage.text1_2}<br></br>
                   {t.internshipPage.text1_3}
                 </p>
               </div>
               <div className="flex flex-col-reverse md:flex-row">
-                <p className="p-4 text-primary ">
-                  {t.internshipPage.text1_4}<br></br>
-                  {t.internshipPage.text1_5}
-                  <br></br>
+                <p className="p-4 text-gray-500 ">
+                  {t.internshipPage.text1_4}<br></br><br></br>
+                  {t.internshipPage.text1_5}<br></br>
                   {t.internshipPage.text1_6}
                 </p>
                 <img
@@ -209,23 +211,22 @@ export default function intership() {
                     className="h-56 w-56 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4"
                     loading="lazy"
                 />
-                <p className="md:pl-4 md:pb-8 text-primary py-4">
-                  {t.internshipPage.text1_7}<br></br>
-                  {t.internshipPage.text1_8}
-                  <br></br>
+                <p className="md:pl-4 md:pb-8 text-gray-500 py-4">
+                  {t.internshipPage.text1_7}<br></br><br></br>
+                  {t.internshipPage.text1_8}<br></br>
                   {t.internshipPage.text1_9}
                 </p>
               </div>
 
               <div className="bg-[#f6fafd] p-4">
-                <div className="md:text-2xl text-gray-700 mt-10">
+                <div className="md:text-2xl text-gray-700 mt-10 font-bold">
                   {t.internshipPage.title2}
                 </div>
-                <p className="text-primary text-lg break-words p-10">
+                <p className="text-gray-500 text-lg break-words p-10">
                   {t.internshipPage.text2_1}
                 </p>
               </div>
-              <div className="break-word text-lg mt-5 text-primary p-5">
+              <div className="break-word text-lg mt-5 text-gray-500 p-5">
                 <p>
                   {t.internshipPage.text2}
                 </p>
@@ -236,28 +237,28 @@ export default function intership() {
             </div>
             <br />
             <div className="row md:px-10 px-4">
-              <div className=" border-collapse border border-1 border-gray-600 text-center bg-darkblue text-white p-4">
+              <div className=" border-collapse border border-1 border-gray-500 text-center font-lg bg-darkblue text-white p-4">
                 {t.internshipPage.table1}
               </div>
-              <table className="text-lg table-auto border-gray-600 w-[100%]">
+              <table className=" table-auto border-gray-500 w-[100%]">
                 <thead>
                 <tr>
-                  <th className="border font-normal border-gray-600">{t.internshipPage.table1_row1_1}</th>
-                  <th className="text-left border border-gray-600 p-5 font-normal">
+                  <th className="border font-normal border-gray-500 text-gray-500">{t.internshipPage.table1_row1_1}</th>
+                  <th className="text-left border border-gray-500 p-5 font-normal text-gray-500">
                     {t.internshipPage.table1_row1_2}
                   </th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                  <td className="text-center border border-gray-600">{t.internshipPage.table1_row2_1}</td>
-                  <td className="border border-gray-600 p-5">
+                  <td className="text-center border border-gray-500 text-gray-500">{t.internshipPage.table1_row2_1}</td>
+                  <td className="border border-gray-500 p-5 text-gray-500">
                     {t.internshipPage.table1_row2_2}
                   </td>
                 </tr>
                 <tr>
-                  <td className="text-center border border-gray-600">{t.internshipPage.table1_row3_1}</td>
-                  <td className="border border-gray-600 p-5">
+                  <td className="text-center border border-gray-500 text-gray-500">{t.internshipPage.table1_row3_1}</td>
+                  <td className="border border-gray-500 p-5 text-gray-500">
                     1．{t.internshipPage.table1_row3_21}<br></br>
                     2．{t.internshipPage.table1_row3_22}
                     <br></br>3.
@@ -268,8 +269,8 @@ export default function intership() {
                   </td>
                 </tr>
                 <tr>
-                  <td className="text-center border border-gray-600">{t.internshipPage.table1_row4_1}</td>
-                  <td className="border border-gray-600 p-5">
+                  <td className="text-center border border-gray-500 text-gray-500">{t.internshipPage.table1_row4_1}</td>
+                  <td className="border border-gray-500 p-5 text-gray-500">
                     <a href="http://sakura-tower-yangon.com/">
                       {t.internshipPage.table1_row4_21}
                     </a>
@@ -282,20 +283,20 @@ export default function intership() {
                   </td>
                 </tr>
                 <tr>
-                  <td className="text-center border border-gray-600">{t.internshipPage.table1_row5_1}</td>
-                  <td className="border border-gray-600 p-5">
+                  <td className="text-center border border-gray-500 text-gray-500">{t.internshipPage.table1_row5_1}</td>
+                  <td className="border border-gray-500 p-5 text-gray-500">
                     {t.internshipPage.table1_row5_2}
                   </td>
                 </tr>
                 <tr>
-                  <td className="text-center border border-gray-600">{t.internshipPage.table1_row55_1}</td>
-                  <td className="border border-gray-600 p-5">
+                  <td className="text-center border border-gray-500 text-gray-500">{t.internshipPage.table1_row55_1}</td>
+                  <td className="border border-gray-500 p-5 text-gray-500">
                     1{t.internshipPage.table1_row55_2}
                   </td>
                 </tr>
                 <tr>
-                  <td className="text-center border border-gray-600">{t.internshipPage.table1_row6_1}</td>
-                  <td className="border border-gray-600 p-5">
+                  <td className="text-center border border-gray-500 text-gray-500">{t.internshipPage.table1_row6_1}</td>
+                  <td className="border border-gray-500 p-5 text-gray-500">
                     1．{t.internshipPage.table1_row6_21}<br></br>
                     {t.internshipPage.table1_row6_22}<br></br>
                     {t.internshipPage.table1_row6_23}
@@ -304,16 +305,16 @@ export default function intership() {
                   </td>
                 </tr>
                 <tr>
-                  <td className="text-center border border-gray-600">{t.internshipPage.table1_row7_1}</td>
-                  <td className="border border-gray-600 p-5">
+                  <td className="text-center border border-gray-500 text-gray-500">{t.internshipPage.table1_row7_1}</td>
+                  <td className="border border-gray-500 p-5 text-gray-500">
                     {t.internshipPage.table1_row7_2}
                   </td>
                 </tr>
                 <tr>
-                  <td className="text-center border border-gray-600">
+                  <td className="text-center border border-gray-500 text-gray-500">
                     {t.internshipPage.table1_row8_1}
                   </td>
-                  <td className="p-5 border border-gray-600">
+                  <td className="p-5 border border-gray-500 text-gray-500">
                     1．{t.internshipPage.table1_row8_21}<br></br>
                     2．{t.internshipPage.table1_row8_22}
                     <br></br>
@@ -349,11 +350,11 @@ export default function intership() {
                 </button>
               </a>
             </div>
-            <div className="md:text-3xl text-gray-700 font-semibold p-4">
-              <p className="text-primary text-center font-semibold mb-4">
+            <div className="md:text-2xl text-gray-700 font-semibold p-4">
+              <p className="text-gray-700 text-center font-semibold mb-4">
                 {t.internshipPage.title3}
               </p>
-              <p className="text-primary font-semibold text-start">
+              <p className="text-gray-700 font-semibold text-start">
                 {t.internshipPage.title3_1}
               </p>
             </div>
@@ -361,17 +362,17 @@ export default function intership() {
             <div className="grid grid-cols-1 md:grid-cols-2">
               <div className="flex basis-1/3">
                 <div className="grid md:ml-0 p-4 ">
-                  <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 bg-darkblue border-gray-600">
-                    <div className="text-center font-bold text-gray-400 m-3">
+                  <div className="divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 bg-darkblue border-gray-500">
+                    <div className="text-center font-medium text-white m-3 border-gray-500">
                       {t.internshipPage.table2_row1_1}
                     </div>
-                    <div className="p-2 col-span-6 font-bold text-gray-400 text-lg text-center">
+                    <div className="p-2 col-span-6 font-medium text-white text-center border-gray-500">
                       {t.internshipPage.table2_row1_2}
                     </div>
                   </div>
-                  <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
-                    <div className="text-center font-medium m-3">1</div>
-                    <div className="p-2 col-span-2 font-medium text-gray-600 text-lg">
+                  <div className="items-center divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">1</div>
+                    <div className="p-2 col-span-2 font-medium text-gray-500">
                       {t.internshipPage.table2_row1_21} <br></br>{t.internshipPage.table2_row1_22}<br></br>
                       {t.internshipPage.table2_row1_23} <br></br>
                       {t.internshipPage.table2_row1_24} <br></br>
@@ -380,83 +381,83 @@ export default function intership() {
                       {t.internshipPage.table2_row1_27} <br></br>
                     </div>
                   </div>
-                  <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
-                    <div className="text-center font-medium m-3">2</div>
-                    <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  <div className="items-center divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">2</div>
+                    <div className="p-2 col-span-5 font-medium text-gray-500">
                       {t.internshipPage.table2_row2_2}
                     </div>
                   </div>
-                  <div className="divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
-                    <div className="text-center font-medium m-3">3</div>
-                    <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  <div className="divide-gray-500 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">3</div>
+                    <div className="p-2 col-span-5 font-medium text-gray-500">
                       {t.internshipPage.table2_row3_2}
                     </div>
                   </div>
-                  <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
-                    <div className="text-center font-medium m-3">4</div>
-                    <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  <div className="items-center divide-gray-500 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">4</div>
+                    <div className="p-2 col-span-5 font-medium text-gray-500">
                       {t.internshipPage.table2_row4_21}<br></br>
                       {t.internshipPage.table2_row5_2}
                     </div>
                   </div>
-                  <div className="divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
-                    <div className="text-center font-medium m-3">5</div>
-                    <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  <div className="divide-gray-500 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">5</div>
+                    <div className="p-2 col-span-5 font-medium text-gray-500">
                       {t.internshipPage.table2_row5_2}
                     </div>
                   </div>
-                  <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
-                    <div className="text-center font-medium m-3">6</div>
-                    <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  <div className="divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">6</div>
+                    <div className="p-2 col-span-5 font-medium text-gray-500">
                       {t.internshipPage.table2_row6_2}
                     </div>
                   </div>
-                  <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
-                    <div className="text-center font-medium m-3">7</div>
-                    <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  <div className="divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">7</div>
+                    <div className="p-2 col-span-5 font-medium text-gray-500">
                       {t.internshipPage.table2_row7_2}
                     </div>
                   </div>
-                  <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
-                    <div className="text-center font-medium m-3">8</div>
-                    <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  <div className="items-center divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">8</div>
+                    <div className="p-2 col-span-5 font-medium text-gray-500">
                       {t.internshipPage.table2_row8_2}
                     </div>
                   </div>
-                  <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
-                    <div className="text-center font-medium m-3">9</div>
-                    <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  <div className="divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">9</div>
+                    <div className="p-2 col-span-5 font-medium text-gray-500">
                       {t.internshipPage.table2_row9_2}
                     </div>
                   </div>
-                  <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
-                    <div className="text-center font-medium m-3">10</div>
-                    <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  <div className="items-center divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">10</div>
+                    <div className="p-2 col-span-5 font-medium text-gray-500">
                       {t.internshipPage.table2_row10_21}<br></br>
                       {t.internshipPage.table2_row10_22}
                     </div>
                   </div>
-                  <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
-                    <div className="text-center font-medium m-3">11</div>
-                    <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  <div className="items-center divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">11</div>
+                    <div className="p-2 col-span-5 font-medium text-gray-500">
                       {t.internshipPage.table2_row11_2}
                     </div>
                   </div>
-                  <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
-                    <div className="text-center font-medium m-3">12</div>
-                    <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  <div className="divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">12</div>
+                    <div className="p-2 col-span-5 font-medium text-gray-500">
                       {t.internshipPage.table2_row12_2}
                     </div>
                   </div>
-                  <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
-                    <div className="text-center font-medium m-3">13</div>
-                    <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  <div className="divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">13</div>
+                    <div className="p-2 col-span-5 font-medium text-gray-500">
                       {t.internshipPage.table2_row13_2}
                     </div>
                   </div>
-                  <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-2 border-gray-600">
-                    <div className="text-center font-medium m-3">14</div>
-                    <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  <div className="divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">14</div>
+                    <div className="p-2 col-span-5 font-medium text-gray-500">
                       {t.internshipPage.table2_row14_2}
                     </div>
                   </div>
@@ -465,23 +466,23 @@ export default function intership() {
 
               <div className="mt-5">
                 <div className="mb-5 p-4">
-                  <div className="items-center divide-gray-600 grid grid-cols-3 divide-x-2 md:mr-5 border-t-2 border-r-2 border-l-2 border-gray-600">
-                    <div className="text-center font-medium m-3">{t.internshipPage.table2_row15_1}</div>
-                    <div className="p-2 font-medium text-gray-600 text-lg col-span-2">
+                  <div className="items-center divide-gray-500 grid grid-cols-3 divide-x-2 md:mr-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">{t.internshipPage.table2_row15_1}</div>
+                    <div className="p-2 font-medium text-gray-500 col-span-2">
                       {t.internshipPage.table2_row15_2}
                     </div>
                   </div>
-                  <div className="items-center divide-gray-600 grid grid-cols-3 divide-x-2 md:mr-5 border-2 border-gray-600">
-                    <div className="text-center font-medium m-3">
+                  <div className="items-center divide-gray-500 grid grid-cols-3 divide-x-2 md:mr-5 border-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">
                       {t.internshipPage.table2_row16_1}
                     </div>
-                    <div className="p-2 font-medium text-gray-600 text-lg col-span-2">
+                    <div className="p-2 font-medium text-gray-500 col-span-2">
                       {t.internshipPage.table2_row16_2}
                     </div>
                   </div>
-                  <div className="items-center divide-gray-600 grid grid-cols-3 divide-x-2 md:mr-5 border-2 border-gray-600">
-                    <div className="text-center font-medium m-3">{t.internshipPage.table2_row17_1}</div>
-                    <div className="p-2 font-medium text-gray-600 text-lg col-span-2">
+                  <div className="items-center divide-gray-500 grid grid-cols-3 divide-x-2 md:mr-5 border-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">{t.internshipPage.table2_row17_1}</div>
+                    <div className="p-2 font-medium text-gray-500 col-span-2">
                       {t.internshipPage.table2_row17_2}
                     </div>
                   </div>
@@ -495,103 +496,103 @@ export default function intership() {
             <p className="mt-10 mb-10 m-6 font-medium text-lg text-gray-500">
               {t.internshipPage.text6}
             </p>
-            <h1 className="font-bold md:text-2xl text-gray-600 ml-8 mt-5 mb-2">
+            <h1 className="font-bold md:text-2xl text-gray-700 ml-8 mt-5 mb-2">
               {t.internshipPage.table3_title}
             </h1>
             <div className="grid grid-cols-1 md:grid-cols-2">
               <div className="flex basis-1/3">
                 <div className="grid md:ml-0 p-4">
-                  <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 bg-darkblue border-gray-600">
-                    <div className="text-center font-bold text-gray-400 m-3">
+                  <div className="divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 bg-darkblue border-gray-500">
+                    <div className="text-center font-bold text-white m-3">
                       {t.internshipPage.table3_row0_1}
                     </div>
-                    <div className="p-2 col-span-5 font-bold text-gray-400 text-lg text-center">
+                    <div className="p-2 col-span-5 font-bold text-white text-center">
                       {t.internshipPage.table3_row0_2}
                     </div>
                   </div>
-                  <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
-                    <div className="text-center font-medium m-3">1</div>
-                    <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  <div className="items-center divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">1</div>
+                    <div className="p-2 col-span-5 font-medium text-gray-500">
                       {" "}
                       {t.internshipPage.table3_row1_21}<br></br>{t.internshipPage.table3_row1_22}<br></br>
                       {t.internshipPage.table3_row1_23}
                     </div>
                   </div>
-                  <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
-                    <div className="text-center font-medium m-3">2</div>
-                    <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  <div className="items-center divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">2</div>
+                    <div className="p-2 col-span-5 font-medium text-gray-500">
                       {t.internshipPage.table3_row2_2}
                     </div>
                   </div>
-                  <div className="divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
-                    <div className="text-center font-medium m-3">3</div>
-                    <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  <div className="divide-gray-500 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">3</div>
+                    <div className="p-2 col-span-5 font-medium text-gray-500">
                       {t.internshipPage.table3_row3_2}
                     </div>
                   </div>
-                  <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
-                    <div className="text-center font-medium m-3">4</div>
-                    <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  <div className="items-center divide-gray-500 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">4</div>
+                    <div className="p-2 col-span-5 font-medium text-gray-500">
                       {t.internshipPage.table3_row4_2}
                     </div>
                   </div>
-                  <div className="divide-gray-600 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
-                    <div className="text-center font-medium m-3">5</div>
-                    <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  <div className="divide-gray-500 grid grid-cols-7 divide-x-2  md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">5</div>
+                    <div className="p-2 col-span-5 font-medium text-gray-500">
                       {t.internshipPage.table3_row5_2}
                     </div>
                   </div>
-                  <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
-                    <div className="text-center font-medium m-3">6</div>
-                    <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  <div className="divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">6</div>
+                    <div className="p-2 col-span-5 font-medium text-gray-500">
                       {t.internshipPage.table3_row6_2}
                     </div>
                   </div>
-                  <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
-                    <div className="text-center font-medium m-3">7</div>
-                    <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  <div className="divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">7</div>
+                    <div className="p-2 col-span-5 font-medium text-gray-500">
                       {t.internshipPage.table3_row7_2}
                     </div>
                   </div>
-                  <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
-                    <div className="text-center font-medium m-3">8</div>
-                    <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  <div className="items-center divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">8</div>
+                    <div className="p-2 col-span-5 font-medium text-gray-500">
                       {t.internshipPage.table3_row8_2}
                     </div>
                   </div>
-                  <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
-                    <div className="text-center font-medium m-3">9</div>
-                    <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  <div className="divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">9</div>
+                    <div className="p-2 col-span-5 font-medium text-gray-500">
                       {t.internshipPage.table3_row9_2}
                     </div>
                   </div>
-                  <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
-                    <div className="text-center font-medium m-3">10</div>
-                    <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  <div className="items-center divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">10</div>
+                    <div className="p-2 col-span-5 font-medium text-gray-500">
                       {t.internshipPage.table3_row10_2}
                     </div>
                   </div>
-                  <div className="items-center divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
-                    <div className="text-center font-medium m-3">11</div>
-                    <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  <div className="items-center divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">11</div>
+                    <div className="p-2 col-span-5 font-medium text-gray-500">
                       {t.internshipPage.table3_row11_2}
                     </div>
                   </div>
-                  <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
-                    <div className="text-center font-medium m-3">12</div>
-                    <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  <div className="divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">12</div>
+                    <div className="p-2 col-span-5 font-medium text-gray-500">
                       {t.internshipPage.table3_row12_2}
                     </div>
                   </div>
-                  <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-600">
-                    <div className="text-center font-medium m-3">13</div>
-                    <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  <div className="divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">13</div>
+                    <div className="p-2 col-span-5 font-medium text-gray-500">
                       {t.internshipPage.table3_row13_2}
                     </div>
                   </div>
-                  <div className="divide-gray-600 grid grid-cols-7 divide-x-2 md:ml-5 border-2 border-gray-600">
-                    <div className="text-center font-medium m-3">14</div>
-                    <div className="p-2 col-span-5 font-medium text-gray-600 text-lg">
+                  <div className="divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">14</div>
+                    <div className="p-2 col-span-5 font-medium text-gray-500">
                       {t.internshipPage.table3_row14_2}
                     </div>
                   </div>
@@ -600,19 +601,19 @@ export default function intership() {
 
               <div className="mt-5">
                 <div className="mb-5 p-4">
-                  <div className="items-center divide-gray-600 grid grid-cols-3 divide-x-2 md:mr-5 border-t-2 border-r-2 border-l-2 border-gray-600">
-                    <div className="text-center font-medium m-3">
+                  <div className="items-center divide-gray-500 grid grid-cols-3 divide-x-2 md:mr-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">
                       {t.internshipPage.table3_row15_1}
                     </div>
-                    <div className="p-2 font-medium text-gray-600 text-lg col-span-2">
+                    <div className="p-2 font-medium text-gray-500 col-span-2">
                       {t.internshipPage.table3_row15_2}
                     </div>
                   </div>
-                  <div className="items-center divide-gray-600 grid grid-cols-3 divide-x-2 md:mr-5 border-2 border-gray-600">
-                    <div className="text-center font-medium m-3">
+                  <div className="items-center divide-gray-500 grid grid-cols-3 divide-x-2 md:mr-5 border-2 border-gray-500">
+                    <div className="text-center font-medium m-3 text-gray-500">
                       {t.internshipPage.table3_row16_1}
                     </div>
-                    <div className="p-2 font-medium text-gray-600 text-lg col-span-2">
+                    <div className="p-2 font-medium text-gray-500 col-span-2">
                       {t.internshipPage.table3_row16_2}
                     </div>
                   </div>
@@ -627,7 +628,7 @@ export default function intership() {
             </p>
             <div className="mx-4">
               <div className="border-2 border-gray-300 rounded-xl mt-5">
-                <h2 className="text-center text-gray-600 md:text-xl font-bold m-4">
+                <h2 className="text-center text-gray-700 md:text-xl font-bold m-4">
                   <a className="md:text-3xl">\ </a> {t.internshipPage.frame2_title1}{" "}
                   <a className="md:text-3xl">/ </a>
                 </h2>
@@ -726,7 +727,7 @@ export default function intership() {
                     loading="lazy"
                 />
                 <div>
-                  <h3 className="font-bold text-gray-600 text-center md:text-left mx-4 mt-4">
+                  <h3 className="font-bold text-gray-700 text-center md:text-left mx-4 mt-4">
                     関原夕希子（Yukiko Sekihara）<br></br>Sales Director
                   </h3>
                   <p className="text-gray-500 text-justify mx-4 my-2">
@@ -741,7 +742,7 @@ export default function intership() {
                     loading="lazy"
                 />
                 <div>
-                  <h3 className="font-bold text-gray-600 text-center md:text-left mx-4 mt-4">
+                  <h3 className="font-bold text-gray-700 text-center md:text-left mx-4 mt-4">
                     Cherry Aung　<br></br>General Manager
                   </h3>
                   <p className="text-gray-500 text-justify mx-4 my-2">
@@ -756,7 +757,7 @@ export default function intership() {
                     loading="lazy"
                 />
                 <div className="grid">
-                  <h3 className="font-bold text-gray-600 text-center md:text-left mx-4 mt-4">
+                  <h3 className="font-bold text-gray-700 text-center md:text-left mx-4 mt-4">
                     Zar Ni Lwin　<br></br>Residence Manager
                   </h3>
 
@@ -772,7 +773,7 @@ export default function intership() {
                     loading="lazy"
                 />
                 <div>
-                  <h3 className="font-bold text-gray-600 text-center md:text-left mx-4 mt-4">
+                  <h3 className="font-bold text-gray-700 text-center md:text-left mx-4 mt-4">
                     堀越美緒（Mio Horikoshi）　<br></br>Sales Director
                   </h3>
                   <p className="text-gray-500 text-justify mx-4 my-2">
@@ -787,7 +788,7 @@ export default function intership() {
                     loading="lazy"
                 />
                 <div>
-                  <h3 className="font-bold text-gray-600 text-center md:text-left mx-4 mt-4">
+                  <h3 className="font-bold text-gray-700 text-center md:text-left mx-4 mt-4">
                     Phyoe Wai Moe　<br></br>YangonYangon Bar Manager
                   </h3>
                   <p className="text-gray-500 text-justify mx-4 my-2">
@@ -802,7 +803,7 @@ export default function intership() {
                     loading="lazy"
                 />
                 <div>
-                  <h3 className="font-bold text-gray-600 text-center md:text-left mx-4 mt-4">
+                  <h3 className="font-bold text-gray-700 text-center md:text-left mx-4 mt-4">
                     白井竜太（Ryuta Shirai）　<br></br>Deputy Manager
                   </h3>
                   <p className="text-gray-500 text-justify mx-4 my-2">
@@ -817,7 +818,7 @@ export default function intership() {
                     loading="lazy"
                 />
                 <div>
-                  <h3 className="font-bold text-gray-600 text-center md:text-left mx-4 mt-4">
+                  <h3 className="font-bold text-gray-700 text-center md:text-left mx-4 mt-4">
                     下山徹（Toru Shimoyama）　<br></br>Sales Manager
                   </h3>
                   <p className="text-gray-500 text-justify mx-4 my-2">
@@ -832,7 +833,7 @@ export default function intership() {
                     loading="lazy"
                 />
                 <div>
-                  <h3 className="font-bold text-gray-600 text-center md:text-left mx-4 mt-4">
+                  <h3 className="font-bold text-gray-700 text-center md:text-left mx-4 mt-4">
                     Myo Zaw Oo　<br></br>Residence Assistant Manager
                   </h3>
                   <p className="text-gray-500 text-justify mx-4 my-2">
@@ -847,7 +848,7 @@ export default function intership() {
                     loading="lazy"
                 />
                 <div>
-                  <h3 className="font-bold text-gray-600 text-center md:text-left mx-4 mt-4">
+                  <h3 className="font-bold text-gray-700 text-center md:text-left mx-4 mt-4">
                     寺田 敏秀（Toshihide Terada）　<br></br>Myanmar Director
                   </h3>
                   <p className="text-gray-500 text-justify mx-4 my-2">
@@ -865,34 +866,34 @@ export default function intership() {
                 <Fragment>
                   <Accordion open={open === 1}>
                     <AccordionHeader onClick={() => handleOpen(1)}>
-                      {t.internshipPage.question1}
+                      <p className="font-medium text-gray-700">{t.internshipPage.question1}</p>
                     </AccordionHeader>
                     <AccordionBody>
-                      {t.internshipPage.answer1}
+                      <p className="font-medium text-gray-500">{t.internshipPage.answer1}</p>
                     </AccordionBody>
                   </Accordion>
                   <Accordion open={open === 2}>
                     <AccordionHeader onClick={() => handleOpen(2)}>
-                      {t.internshipPage.question2}
+                      <p className="font-medium text-gray-700">{t.internshipPage.question2}</p>
                     </AccordionHeader>
                     <AccordionBody>
-                      {t.internshipPage.answer2}
+                      <p className="font-medium text-gray-500">{t.internshipPage.answer2}</p>
                     </AccordionBody>
                   </Accordion>
                   <Accordion open={open === 3}>
                     <AccordionHeader onClick={() => handleOpen(3)}>
-                      {t.internshipPage.question3}
+                      <p className="font-medium text-gray-700">{t.internshipPage.question3}</p>
                     </AccordionHeader>
                     <AccordionBody>
-                      {t.internshipPage.answer3}
+                      <p className="font-medium text-gray-500">{t.internshipPage.answer3}</p>
                     </AccordionBody>
                   </Accordion>
                   <Accordion open={open === 4}>
                     <AccordionHeader onClick={() => handleOpen(4)}>
-                      {t.internshipPage.question4}
+                      <p className="font-medium text-gray-700">{t.internshipPage.question4}</p>
                     </AccordionHeader>
                     <AccordionBody>
-                      {t.internshipPage.answer4}
+                      <p className="font-medium text-gray-500">{t.internshipPage.answer4}</p>
                     </AccordionBody>
                   </Accordion>
                 </Fragment>

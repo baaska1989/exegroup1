@@ -10,25 +10,25 @@ import { useRouter } from 'next/router';
 
 import en from '../locales/en';
 import jp from '../locales/jp';
-export default function Home() 
+export default function Home()
 {
     const router = useRouter();
     const { locale } = router;
     const t = locale === 'jp' ? jp : en;
-    
-  return (
-      <>
-      <Head>
-          <title>{t.home}</title>
-      </Head>
-      <MainLayout>
-       <Slider />
-        <Aboutexe />
-        <Recruitment />
-        <Domesticprojects />
-        <Sharedhouse />
-        <Projects />
-      </MainLayout>
-      </>
-  );
+
+    return (
+        <>
+            <Head>
+                <title>{t.home}</title>
+            </Head>
+            <MainLayout>
+                <Slider />
+                <Aboutexe />
+                <Recruitment />
+                <Domesticprojects />
+                <Sharedhouse />
+                <Projects />
+            </MainLayout>
+        </>
+    );
 }

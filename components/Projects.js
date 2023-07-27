@@ -30,7 +30,7 @@ const Projects = () => {
                 <h2 className="font-serif text-2xl md:text-3xl text-gray-700 font-bold">
                   {t.projects.title1}
                 </h2>
-                <p className="font-light mt-6 font-sans text-gray-600 max-w-2xl">
+                <p className="font-medium mt-6 font-sans text-gray-500 max-w-2xl">
                   {t.projects.text1}
                 </p>
               </div>
@@ -53,7 +53,7 @@ const Projects = () => {
               <h2 className="font-serif text-2xl md:text-3xl text-gray-700 font-bold ">
                 {t.projects.title2}
               </h2>
-              <p className="font-light mt-2 font-sans text-gray-600 max-w-xl ">
+              <p className="font-medium mt-2 font-sans text-gray-500 max-w-xl ">
                 {t.projects.text2}
               </p>
             </div>

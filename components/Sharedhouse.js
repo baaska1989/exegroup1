@@ -22,7 +22,7 @@ const Sharedhouse = () => {
               <div className="flex justify-center md:justify-start align-text-bottom">
                 <Link href="/mongolia">
                   <button
-                      className="px-14 py-3 bg-darkblue text-gray-400 font-extrabold text-base leading-snug uppercase"
+                      className="px-14 py-3 bg-darkblue text-white font-medium text-base leading-snug uppercase"
                       role="button"
                       data-mdb-ripple="true"
                       data-mdb-ripple-color="light"

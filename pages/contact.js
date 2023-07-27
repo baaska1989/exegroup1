@@ -36,7 +36,7 @@ const contact = () => {
           <div>
             <div className="container my-12 px-6 mx-auto">
               {/* Section: Design Block */}
-              <section className="mb-32 text-center text-gray-800">
+              <section className="mb-32 text-center text-gray-700">
                 <div className="max-w-[800px] mx-auto px-3">
                   <div className="flex mt-4 justify-center">
                     <svg

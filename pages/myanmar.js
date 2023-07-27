@@ -176,9 +176,9 @@ const myanmar = () => {
             <div className="px-10">
               <div className="text-3xl font-bold box-content w-auto p-10 border-0 bg-[#f6fafd] my-4 text-gray-700">
                 <div className=" text-gray-500 grid grid-cols-1 md:grid-cols-2">
-                  <div className="col-span-1">
+                  <div className="col-span-1 text-gray-700">
                     {t.myanmarPage.title4}
-                    <div className="font-normal text-base mt-8 sm:ml-5 block">
+                    <div className="font-normal text-base mt-8 sm:ml-5 block text-gray-500">
                       {t.myanmarPage.line13}<br></br>-
                       &nbsp;{t.myanmarPage.line14}<br></br>-
                       &nbsp;{t.myanmarPage.line15}<br></br>-
@@ -187,22 +187,23 @@ const myanmar = () => {
                       &nbsp;{t.myanmarPage.line18}<br></br>-
                       &nbsp;{t.myanmarPage.line19}<br></br>-
                       &nbsp;{t.myanmarPage.line20}<br></br>-
-                      &nbsp;{t.myanmarPage.line21}<br></br>-
+                      &nbsp;{t.myanmarPage.line21}<br></br>
+                      &nbsp;{t.myanmarPage.line21_1}<br></br>-
                       &nbsp;{t.myanmarPage.line22}<br></br>-
                       &nbsp;{t.myanmarPage.line23}<br></br>-
                       &nbsp;{t.myanmarPage.line24}<br></br>
                     </div>
                   </div>
-                  <div className="col-span-1">
+                  <div className="col-span-1 text-gray-700">
                     {t.myanmarPage.title5}
-                    <div className="font-normal text-base mt-8">
+                    <div className="font-normal text-base mt-8 text-gray-500">
                       - &nbsp;{t.myanmarPage.line25}<br></br>-
                       &nbsp;{t.myanmarPage.line26}<br></br>-
                       &nbsp;{t.myanmarPage.line27}<br></br>-
                       &nbsp;{t.myanmarPage.line28}<br></br>-
                       &nbsp;{t.myanmarPage.line29}<br></br>-
                       &nbsp;{t.myanmarPage.line30}<br></br>-
-                      &nbsp;{t.myanmarPage.line31}
+                      &nbsp;&nbsp;{t.myanmarPage.line31}
                     </div>
                   </div>
                 </div>
