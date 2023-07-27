@@ -5,6 +5,7 @@ export default {
     overseasProjects: "Overseas Projects",
     domesticProjects: "Domestic Projects",
     internship: "Internship / Recruitment",
+    internship1: "Internship",
     contact: "Contact",
     slider1: "Every market has",
     slider2: "excellent investment",

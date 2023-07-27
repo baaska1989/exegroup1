@@ -155,7 +155,7 @@ export default function intership() {
                     className="h-12 w-[800px] mx-auto"
                     loading="lazy"
                 />
-                {locale === 'jp' ? <img
+                {locale == 'jp' ? <img
                     src="/assets/img/text_box.png"
                     className="h-42  w-[800px] mx-auto p-2"
                     loading="lazy"

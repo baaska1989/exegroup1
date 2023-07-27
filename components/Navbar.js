@@ -151,8 +151,8 @@ export default function Navbar({ fixed }) {
                               href="/intership"
                               data-te-dropdown-item-ref
                           >
-                            {t.internship}
-                          </Link>
+                            {t.internship1}
+                          </Link> <br />
                           <Link
                               className="block w-full bg-transparent py-1 px-4 text-sm text-white border"
                               href="/recruit"
