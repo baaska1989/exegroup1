@@ -87,7 +87,7 @@ const myanmar = () => {
                 </h1>
                 <div className="lg:flex block">
                   <div className="flex text-justify">
-                    <div className="text-lg font-medium w-auto lg:h-auto md:py-4 pb-8 text-gray-500 max-w-4xl py-4 indent-4">
+                    <div className="text-lg font-medium w-auto lg:h-auto md:py-4 pb-8 text-gray-500 max-w-4xl p-4 indent-4">
                       <p>
                         {t.myanmarPage.text1}
                       </p>
@@ -114,11 +114,11 @@ const myanmar = () => {
                 <ImageGallery items={images} className="gallery-thumb" />
               </div>
             </div>
-            <div className="px-10">
-              <div className="text-2xl md:text-3xl font-bold box-content w-auto p-8 border-0 bg-[#f6fafd] my-4 text-gray-700">
+            <div className="px-5">
+              <div className="text-2xl md:text-3xl font-bold box-content w-auto p-2 border-0 bg-[#f6fafd] my-4 text-gray-700" style={{padding: 25}}>
                 {t.myanmarPage.title2}
-                <div className="grid grid-cols-1 md:grid-cols-2">
-                  <div className="font-normal text-base mt-4 text-gray-500 col-span-1">
+                <div className="grid grid-cols-1 md:grid-cols-2" >
+                  <div className="font-normal mt-4 text-base text-gray-500 col-span-1">
                     {t.myanmarPage.line1}<br></br>-
                     &nbsp;{t.myanmarPage.line2}<br></br>-
                     &nbsp;{t.myanmarPage.line3}<br></br>-
@@ -173,12 +173,12 @@ const myanmar = () => {
                 <ImageGallery items={images2} />
               </div>
             </div>
-            <div className="px-10">
-              <div className="text-3xl font-bold box-content w-auto p-10 border-0 bg-[#f6fafd] my-4 text-gray-700">
-                <div className=" text-gray-500 grid grid-cols-1 md:grid-cols-2">
+            <div className="px-5">
+              <div className="text-3xl font-bold box-content w-auto p-2 border-0 bg-[#f6fafd] my-4 text-gray-700">
+                <div className=" text-gray-500 grid grid-cols-1 md:grid-cols-2" style={{padding: 25}}>
                   <div className="col-span-1 text-gray-700">
                     {t.myanmarPage.title4}
-                    <div className="font-normal text-base mt-8 sm:ml-5 block text-gray-500">
+                    <div className="font-normal text-base mt-5 block text-gray-500 pb-5">
                       {t.myanmarPage.line13}<br></br>-
                       &nbsp;{t.myanmarPage.line14}<br></br>-
                       &nbsp;{t.myanmarPage.line15}<br></br>-
@@ -194,9 +194,9 @@ const myanmar = () => {
                       &nbsp;{t.myanmarPage.line24}<br></br>
                     </div>
                   </div>
-                  <div className="col-span-1 text-gray-700">
+                  <div className="col-span-1 text-gray-700 sm:mt-5 lg:mt-0 md:mt-0">
                     {t.myanmarPage.title5}
-                    <div className="font-normal text-base mt-8 text-gray-500">
+                    <div className="font-normal text-base mt-5 text-gray-500">
                       - &nbsp;{t.myanmarPage.line25}<br></br>-
                       &nbsp;{t.myanmarPage.line26}<br></br>-
                       &nbsp;{t.myanmarPage.line27}<br></br>-
