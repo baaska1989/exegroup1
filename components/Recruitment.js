@@ -31,14 +31,13 @@ const Recruitment = () => {
                 {t.recruitment.text}
               </p>
               <Link href="/recruit">
-                <a
-                    className="inline-block px-7 py-4 my-4 bg-[#0e1448] text-white font-medium text-sm leading-snug uppercase rounded hover:bg-[#0e1447] focus:outline-none focus:ring-0 transition duration-150 ease-in-out"
-                    role="button"
-                    data-mdb-ripple="true"
-                    data-mdb-ripple-color="light"
-                >
+                  <button
+                      className="px-14 mt-5 py-3 bg-darkblue text-white font-medium text-base leading-snug uppercase"
+                      role="button"
+                      data-mdb-ripple="true"
+                      data-mdb-ripple-color="light">
                   {t.recruitment.button}
-                </a>
+                  </button>
               </Link>
             </div>
           </div>

@@ -19,10 +19,10 @@ const Slider = () => {
                 className="absolute top-6 sm:top-20 right-0 bottom-0 left-6 sm:left-20 h-full w-full overflow-hidden bg-fixed"
                 style={{ backgroundColor: "rgba(0, 0, 0, 0)" }}
             >
-                <div className="md:mb-0 md:pb-4 md:max-w-3xl text-[#0E1447] font-bold">
-                    <h3 className="text-2xl md:text-3xl xl:text-4xl ">{t.slider1}</h3>
-                    <h3 className="text-2xl md:text-3xl xl:text-4xl ">{t.slider2}</h3>
-                    <h3 className="text-2xl md:text-3xl xl:text-4xl ">{t.slider3}</h3>
+                <div className="md:mb-0 md:pb-4 md:max-w-3xl text-[#0E1447] font-medium" style={{fontSize: 60}}>
+                    <h3 className="text-xl sm:text-2xl md:text-5xl xl:text-6xl ">{t.slider1}</h3>
+                    <h3 className="text-xl sm:text-2xl md:text-5xl xl:text-6xl sm:mt-2 sm:pl-5 md:mt-2 md:pl-5 lg:pl-20 lg:mt-4">{t.slider2}</h3>
+                    <h3 className="text-xl sm:text-2xl md:text-5xl xl:text-6xl sm:mt-2 sm:pl-5 md:mt-2 md:pl-5 lg:pl-20 lg:mt-4">{t.slider3}</h3>
                 </div>
             </div>
         </div>

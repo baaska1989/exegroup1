@@ -65,7 +65,8 @@ export default function intership() {
   const t = locale === 'jp' ? jp : en;
   const [open, setOpen] = useState(1);
 
-  const handleOpen = (value) => {
+  const handleOpen = (value) =>
+  {
     setOpen(open === value ? 0 : value);
   };
   return (
@@ -117,11 +118,11 @@ export default function intership() {
                     <div className="flex">
                       <img
                           src="/assets/img/sad.jpeg"
-                          className="h-64 w-auto mx-auto hidden md:block"
+                          className="h-48 w-auto mx-auto hidden md:block"
                           loading="lazy"
                       />
                       <div className="text-gray-500 md:px-20 px-4 py-5 md:text-lg text-sm">
-                        {t.internshipPage.frame_text1_1}
+                        ・{t.internshipPage.frame_text1_1}
                         <br /> ・{t.internshipPage.frame_text1_2}
                         <br /> ・{t.internshipPage.frame_text1_3}
                         <br /> ・{t.internshipPage.frame_text1_4}
@@ -129,7 +130,7 @@ export default function intership() {
                       </div>
                       <img
                           src="/assets/img/sad2.jpeg"
-                          className="h-64 w-auto mx-auto hidden md:block"
+                          className="h-48 w-auto mx-auto hidden md:block"
                           loading="lazy"
                       />
                     </div>
@@ -180,20 +181,19 @@ export default function intership() {
               <div className="text-gray-700 text-center p-10 font-bold md:text-2xl">
                 {t.internshipPage.title1}
               </div>
-
-              <div className="flex flex-col md:flex-row">
+              <div className="flex flex-col md:flex-row py-4">
                 <img
                     src="/assets/img/woman1.jpeg"
-                    className="h-56 w-56 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4"
+                    className="h-52 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4"
                     loading="lazy"
                 />
-                <p className="md:pl-4 text-gray-500 items-center py-4">
+                <p className="md:pl-4 text-gray-500 items-center ">
                   {t.internshipPage.text1_1}<br></br><br></br>
                   {t.internshipPage.text1_2}<br></br>
                   {t.internshipPage.text1_3}
                 </p>
               </div>
-              <div className="flex flex-col-reverse md:flex-row">
+              <div className="flex flex-col-reverse md:flex-row py-4">
                 <p className="p-4 text-gray-500 ">
                   {t.internshipPage.text1_4}<br></br><br></br>
                   {t.internshipPage.text1_5}<br></br>
@@ -201,28 +201,27 @@ export default function intership() {
                 </p>
                 <img
                     src="/assets/img/guy1.jpg"
-                    className="h-56 w-56 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4"
+                    className="h-52 mt-5 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4 align-middle"
                     loading="lazy"
                 />
               </div>
-              <div className="flex flex-col md:flex-row">
+              <div className="flex flex-col md:flex-row py-4">
                 <img
                     src="/assets/img/woman2.jpeg"
-                    className="h-56 w-56 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4"
+                    className="h-52 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4 align-middle"
                     loading="lazy"
                 />
-                <p className="md:pl-4 md:pb-8 text-gray-500 py-4">
+                <p className="md:pl-4 md:pb-8 text-gray-500">
                   {t.internshipPage.text1_7}<br></br><br></br>
                   {t.internshipPage.text1_8}<br></br>
                   {t.internshipPage.text1_9}
                 </p>
               </div>
-
               <div className="bg-[#f6fafd] p-4">
                 <div className="md:text-2xl text-gray-700 mt-10 font-bold">
                   {t.internshipPage.title2}
                 </div>
-                <p className="text-gray-500 text-lg break-words p-10">
+                <p className="text-gray-500 text-l break-words p-10" style={{fontSize: "1.06rem;"}}>
                   {t.internshipPage.text2_1}
                 </p>
               </div>
@@ -316,14 +315,11 @@ export default function intership() {
                   </td>
                   <td className="p-5 border border-gray-500 text-gray-500">
                     1．{t.internshipPage.table1_row8_21}<br></br>
-                    2．{t.internshipPage.table1_row8_22}
-                    <br></br>
-                    {t.internshipPage.table1_row8_23}
-                    <br></br>　 {t.internshipPage.table1_row8_24}<br></br>
-                    3．{t.internshipPage.table1_row8_25}
-                    <br></br>
-                    4．{t.internshipPage.table1_row8_26}
-                    <br></br>
+                    2．{t.internshipPage.table1_row8_22}<br></br>
+                    {t.internshipPage.table1_row8_23}<br></br>　
+                    {t.internshipPage.table1_row8_24}<br></br>
+                    3．{t.internshipPage.table1_row8_25}<br></br>
+                    4．{t.internshipPage.table1_row8_26}<br></br>
                     5．{t.internshipPage.table1_row8_27}
                   </td>
                 </tr>
@@ -371,14 +367,12 @@ export default function intership() {
                     </div>
                   </div>
                   <div className="items-center divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-500">
-                    <div className="text-center font-medium m-3 text-gray-500">1</div>
-                    <div className="p-2 col-span-2 font-medium text-gray-500">
-                      {t.internshipPage.table2_row1_21} <br></br>{t.internshipPage.table2_row1_22}<br></br>
-                      {t.internshipPage.table2_row1_23} <br></br>
+                    <div className="col-span-1 text-center font-medium m-3 text-gray-500">1</div>
+                    <div className="p-2 col-span-6 font-medium text-gray-500">
+                      {t.internshipPage.table2_row1_21} <br></br>
+                      {t.internshipPage.table2_row1_22}<br></br>
                       {t.internshipPage.table2_row1_24} <br></br>
-                      {t.internshipPage.table2_row1_25} <br></br>
                       {t.internshipPage.table2_row1_26} <br></br>
-                      {t.internshipPage.table2_row1_27} <br></br>
                     </div>
                   </div>
                   <div className="items-center divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 border-gray-500">
@@ -703,13 +697,13 @@ export default function intership() {
                   </p>
                 </div>
                 <div>
-                  <p className="text-center font-medium md:text-lg text-gray-500 mx-4 -mt-8">
+                  <p className="text-center font-medium md:text-lg text-gray-500 mx-4 -mt-8 mb-8">
                     {t.internshipPage.frame2_text5_1}
                   </p>
                 </div>
               </div>
             </div>
-            <div className="md:px-6">
+            <div className="md:px-6 mt-4">
               <div>
                 <h2 className="font-bold md:text-2xl text-gray-700 text-center my-6">
                   {t.internshipPage.frame2_title1}
@@ -866,34 +860,34 @@ export default function intership() {
                 <Fragment>
                   <Accordion open={open === 1}>
                     <AccordionHeader onClick={() => handleOpen(1)}>
-                      <p className="font-medium text-gray-700">{t.internshipPage.question1}</p>
+                      <p className="text-gray-500">{t.internshipPage.question1}</p>
                     </AccordionHeader>
                     <AccordionBody>
-                      <p className="font-medium text-gray-500">{t.internshipPage.answer1}</p>
+                      <p className="text-gray-500">{t.internshipPage.answer1}</p>
                     </AccordionBody>
                   </Accordion>
                   <Accordion open={open === 2}>
                     <AccordionHeader onClick={() => handleOpen(2)}>
-                      <p className="font-medium text-gray-700">{t.internshipPage.question2}</p>
+                      <p className="text-gray-500">{t.internshipPage.question2}</p>
                     </AccordionHeader>
                     <AccordionBody>
-                      <p className="font-medium text-gray-500">{t.internshipPage.answer2}</p>
+                      <p className="text-gray-500">{t.internshipPage.answer2}</p>
                     </AccordionBody>
                   </Accordion>
                   <Accordion open={open === 3}>
                     <AccordionHeader onClick={() => handleOpen(3)}>
-                      <p className="font-medium text-gray-700">{t.internshipPage.question3}</p>
+                      <p className="text-gray-500">{t.internshipPage.question3}</p>
                     </AccordionHeader>
                     <AccordionBody>
-                      <p className="font-medium text-gray-500">{t.internshipPage.answer3}</p>
+                      <p className="text-gray-500">{t.internshipPage.answer3}</p>
                     </AccordionBody>
                   </Accordion>
                   <Accordion open={open === 4}>
                     <AccordionHeader onClick={() => handleOpen(4)}>
-                      <p className="font-medium text-gray-700">{t.internshipPage.question4}</p>
+                      <p className="text-gray-500">{t.internshipPage.question4}</p>
                     </AccordionHeader>
                     <AccordionBody>
-                      <p className="font-medium text-gray-500">{t.internshipPage.answer4}</p>
+                      <p className="text-gray-500">{t.internshipPage.answer4}</p>
                     </AccordionBody>
                   </Accordion>
                 </Fragment>

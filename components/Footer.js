@@ -11,7 +11,7 @@ const Footer = () => {
   return (
       <div className="bg-darkblue font-bold">
         <div className="sticky active:border-[3px] active:border-r-0 border-cyan-600 active:rounded my-[3px]">
-          {/* Language */}
+
           <div className="flex flex-grow fixed z-10 justify-end">
             <div className="dropdown relative">
               <ul
@@ -50,7 +50,7 @@ const Footer = () => {
 
 
         <div className="sticky active:border-[3px] active:border-r-0 border-cyan-600 active:rounded my-[3px] duration-150 ">
-          {/*<Link href="/contact"> {t.contact} </Link>*/}
+          <Link href="/contact"><a>{t.contact}</a></Link>
         </div>
         <div className="bg-darkblue grid gap-0 sm:grid-cols-2 md:grid-cols-7 lg:grid-cols-10 w-full p-4 md:p-12 text-xs md:text-base">
           <div className="sm:col-span-1 md:col-span-3 lg:col-span-4 max-w-lg md:pl-4 mt-4 md:p-4">

@@ -15,7 +15,7 @@ const about = () => {
         </Head>
         <MainLayout>
           <div
-              className="relative overflow-hidden bg-cover bg-no-repeat h-[16rem] md:h-[20rem] lg:h-[28rem]"
+              className="relative overflow-hidden bg-cover bg-no-repeat h-[26rem] md:h-[20rem] lg:h-[28rem]"
               style={{
                 backgroundPosition: "50%",
                 backgroundImage: 'url("/assets/img/mv.jpg")',
@@ -36,15 +36,11 @@ const about = () => {
             <div className="px-4 about-text">
               <p className="text-center text-lg font-medium text-gray-500 pt-6">
                 {t.aboutPage.short_desc}
-
-                {/*私ども、株式会社エクセは1991年8月6日に生まれました。 <br></br>*/}
-                {/*それから20年、20世紀の最後の10年と21世紀の最初の10年の激動の中をブティックの投資事業会社として、*/}
-                {/*<br></br>時代の流れとともに前へ前へと進んでまいりました。*/}
               </p>
-              <h2 className="text-center underline underline-offset-4 font-bold text-2xl md:text-3xl text-gray-700 my-4">
+              <h2 className="text-center mt-8 underline underline-offset-4 font-bold text-2xl md:text-3xl text-gray-700 my-4">
                 {t.aboutPage.title1}
               </h2>
-              <p className="text-center text-lg font-medium text-gray-500 mb-8 mt-4">
+              <p className="text-center text-lg font-medium text-gray-500 mt-4">
                 {t.aboutPage.text1}
                 <br></br>
                 <br></br>
@@ -53,7 +49,7 @@ const about = () => {
                 <br></br>{" "}
                 {t.aboutPage.text3}
               </p>
-              <h2 className="text-center underline underline-offset-4 font-bold text-2xl md:text-3xl text-gray-700 mb-8">
+              <h2 className="text-center mt-8 underline underline-offset-4 font-bold text-2xl md:text-3xl text-gray-700 my-4">
                 {t.aboutPage.title2}
               </h2>
               <p className="text-center text-lg font-medium text-gray-500 mb-8">

@@ -111,15 +111,15 @@ export default function Navbar({ fixed }) {
                       <span className="flex items-center md:px-6 pt-2.5 pb-2 text-sm font-medium uppercase leading-normal text-white -mt-0.5">
                         {t.overseasProjects}
                       </span>
-                        <div className="dropdown-content text-left text-white">
+                        <div className="dropdown-content text-left text-white p-2">
                           <Link
-                              className="block w-full bg-transparent py-1 px-4 text-sm text-white border"
+                              className="block p-2 w-full bg-transparent py-1 px-4 text-sm text-white border"
                               href="/myanmar"
                           >
                             {t.myanmar}
                           </Link> <br />
-                          <Link style={{color: "#fff", padding: 10}}
-                              className="block w-full bg-transparent py-1 px-4 text-sm text-white border"
+                          <Link style={{color: "#fff"}}
+                              className="block pl-2 w-full bg-transparent py-1 px-4 text-sm text-white border"
                               href="/mongolia"
                           >
                             {t.mongolia}
@@ -145,7 +145,7 @@ export default function Navbar({ fixed }) {
                       <span className="flex items-center bg-darkblue lg:px-6 px-4 pt-2.5 pb-2 text-sm font-medium uppercase leading-normal text-white -mt-0.5">
                         {t.internship}
                       </span>
-                        <div className="dropdown-content text-center">
+                        <div className="dropdown-content text-left flex-col" style={{minWidth: 200, paddingLeft: '10px'}}>
                           <Link
                               className="block w-full bg-transparent py-1 px-4 text-sm text-white border"
                               href="/intership"
@@ -154,7 +154,7 @@ export default function Navbar({ fixed }) {
                             {t.internship1}
                           </Link> <br />
                           <Link
-                              className="block w-full bg-transparent py-1 px-4 text-sm text-white border"
+                              className="block mt-2 pb-2 w-full bg-transparent py-1 px-4 text-sm text-white border"
                               href="/recruit"
                               data-te-dropdown-item-ref
                           >
@@ -170,7 +170,6 @@ export default function Navbar({ fixed }) {
                   <Link href="/contact">
                     <a className="px-2 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">
                       <span className="ml-2">{t.contact}</span>
-                      {/*<span className="ml-2">お問い合わせ</span>*/}
                     </a>
                   </Link>
                 </li>
