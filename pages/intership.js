@@ -6,6 +6,7 @@ import en from '../locales/en';
 import jp from '../locales/jp';
 import { useRouter } from "next/router";
 import { Fragment, useState } from "react";
+import styles from './styles.module.css'
 import {
   Accordion,
   AccordionHeader,
@@ -59,6 +60,7 @@ const images2 = [
 ];
 
 // jdfjlgdflgkdfsngklndf
+
 export default function intership() {
   const router = useRouter();
   const { locale } = router;
@@ -859,34 +861,34 @@ export default function intership() {
               <div className="md:px-12 px-4">
                 <Fragment>
                   <Accordion open={open === 1}>
-                    <AccordionHeader onClick={() => handleOpen(1)}>
-                      <p className="text-gray-500">{t.internshipPage.question1}</p>
+                    <AccordionHeader className="accor-header" onClick={() => handleOpen(1)} >
+                      <p className="text-gray-700">{t.internshipPage.question1}</p>
                     </AccordionHeader>
-                    <AccordionBody>
+                    <AccordionBody className="accor-body" style={{fontWeight: '500 !important', fontSize: '1rem !important'}}>
                       <p className="text-gray-500">{t.internshipPage.answer1}</p>
                     </AccordionBody>
                   </Accordion>
                   <Accordion open={open === 2}>
                     <AccordionHeader onClick={() => handleOpen(2)}>
-                      <p className="text-gray-500">{t.internshipPage.question2}</p>
+                      <p className="text-gray-700">{t.internshipPage.question2}</p>
                     </AccordionHeader>
-                    <AccordionBody>
-                      <p className="text-gray-500">{t.internshipPage.answer2}</p>
+                    <AccordionBody style={{fontWeight: '500 !important', fontSize: '1rem !important'}}>
+                      <p className="text-gray-700">{t.internshipPage.answer2}</p>
                     </AccordionBody>
                   </Accordion>
                   <Accordion open={open === 3}>
                     <AccordionHeader onClick={() => handleOpen(3)}>
-                      <p className="text-gray-500">{t.internshipPage.question3}</p>
+                      <p className="text-gray-700">{t.internshipPage.question3}</p>
                     </AccordionHeader>
-                    <AccordionBody>
+                    <AccordionBody style={{fontWeight: '500 !important', fontSize: '1rem !important'}}>
                       <p className="text-gray-500">{t.internshipPage.answer3}</p>
                     </AccordionBody>
                   </Accordion>
                   <Accordion open={open === 4}>
                     <AccordionHeader onClick={() => handleOpen(4)}>
-                      <p className="text-gray-500">{t.internshipPage.question4}</p>
+                      <p className="text-gray-700">{t.internshipPage.question4}</p>
                     </AccordionHeader>
-                    <AccordionBody>
+                    <AccordionBody style={{fontWeight: '500 !important', fontSize: '1rem !important'}}>
                       <p className="text-gray-500">{t.internshipPage.answer4}</p>
                     </AccordionBody>
                   </Accordion>

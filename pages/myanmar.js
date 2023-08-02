@@ -81,7 +81,7 @@ const myanmar = () => {
 
           <div className="max-w-[1200px] mx-auto">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="px-4 md:pl-10 col-span-1">
+              <div className="px-4 md:pl-5 col-span-1">
                 <h1 className="font-bold text-2xl md:text-3xl text-gray-700 mt-8 text-center md:text-left">
                   {t.myanmarPage.title1}
                 </h1>
@@ -115,9 +115,9 @@ const myanmar = () => {
               </div>
             </div>
             <div className="px-5">
-              <div className="text-2xl md:text-3xl font-bold box-content w-auto p-2 border-0 bg-[#f6fafd] my-4 text-gray-700" style={{padding: 25}}>
+              <div className="text-2xl md:text-3xl font-bold box-content w-auto p-2 border-0 bg-[#f6fafd] my-4 text-gray-700">
                 {t.myanmarPage.title2}
-                <div className="grid grid-cols-1 md:grid-cols-2" >
+                <div className="grid grid-cols-1 md:grid-cols-2">
                   <div className="font-normal mt-4 text-base text-gray-500 col-span-1">
                     {t.myanmarPage.line1}<br></br>-
                     &nbsp;{t.myanmarPage.line2}<br></br>-
@@ -175,7 +175,7 @@ const myanmar = () => {
             </div>
             <div className="px-5">
               <div className="text-3xl font-bold box-content w-auto p-2 border-0 bg-[#f6fafd] my-4 text-gray-700">
-                <div className=" text-gray-500 grid grid-cols-1 md:grid-cols-2" style={{padding: 25}}>
+                <div className=" text-gray-500 grid grid-cols-1 md:grid-cols-2">
                   <div className="col-span-1 text-gray-700">
                     {t.myanmarPage.title4}
                     <div className="font-normal text-base mt-5 block text-gray-500 pb-5">
