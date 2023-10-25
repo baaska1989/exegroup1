@@ -359,7 +359,7 @@ export default function intership() {
 
             <div className="grid grid-cols-1 md:grid-cols-2">
               <div className="flex basis-1/3">
-                <div className="grid md:ml-0 p-4 ">
+                <div className="grid md:ml-0 p-4 " style={{width: "100%"}}>
                   <div className="divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 bg-darkblue border-gray-500">
                     <div className="text-center font-medium text-white m-3 border-gray-500">
                       {t.internshipPage.table2_row1_1}
@@ -638,7 +638,7 @@ export default function intership() {
                     <path d="M16.4 13.2h-.8a2.613 2.613 0 0 1-2.493-1.864 1 1 0 1 1 1.918-.565c.075.253.312.43.575.43h.8a.6.6 0 0 0 0-1.201h-.8C14.166 10 13 8.833 13 7.4s1.166-2.6 2.6-2.6h.8c1.121 0 2.111.714 2.466 1.778a1 1 0 1 1-1.897.633.598.598 0 0 0-.569-.411h-.8a.6.6 0 0 0 0 1.2h.8c1.434 0 2.6 1.167 2.6 2.6s-1.166 2.6-2.6 2.6z" />
                     <path d="M16 6c-.271 0-.521-.11-.71-.29-.04-.05-.09-.1-.12-.16a.556.556 0 0 1-.09-.17.672.672 0 0 1-.061-.18C15.01 5.13 15 5.07 15 5c0-.26.109-.52.29-.71.37-.37 1.04-.37 1.42 0 .18.19.29.45.29.71 0 .07-.01.13-.021.2a.606.606 0 0 1-.06.18.578.578 0 0 1-.09.17c-.04.06-.08.11-.12.16-.189.18-.449.29-.709.29zm0 8c-.271 0-.521-.11-.71-.29-.04-.05-.09-.1-.12-.16a.556.556 0 0 1-.09-.17.672.672 0 0 1-.061-.18c-.009-.07-.019-.13-.019-.2 0-.26.109-.52.29-.71.37-.37 1.04-.37 1.42 0 .18.19.29.45.29.71 0 .07-.01.13-.021.2a.606.606 0 0 1-.06.18.578.578 0 0 1-.09.17c-.04.06-.08.11-.12.16-.189.18-.449.29-.709.29zm2 17H2a1 1 0 0 1-1-1v-9c0-.265.105-.52.293-.707C1.527 20.058 3.653 18 6 18c1.944 0 4.452 1.469 5.295 2H16a3.004 3.004 0 0 1 2.955 3.519l7.891-3.288a2.995 2.995 0 0 1 2.818.273A2.993 2.993 0 0 1 31 23a1 1 0 0 1-.496.864l-12 7A1.003 1.003 0 0 1 18 31zM3 29h14.729l11.14-6.498a1.01 1.01 0 0 0-.314-.334.984.984 0 0 0-.939-.091l-9.23 3.846A1.007 1.007 0 0 1 18 26h-8a1 1 0 1 1 0-2h6a1.001 1.001 0 0 0 0-2h-5c-.197 0-.391-.059-.555-.167C9.68 21.323 7.387 20 6 20c-1.09 0-2.347.88-3 1.439V29z" />
                   </svg>
-                  <p className="flex-1 text-gray-700 font-bold md:text-lg ml-2">
+                  <p className="flex-1 text-gray-700 font-bold md:text-lg ml-2 mt-8">
                     {t.internshipPage.frame2_title2}
                   </p>
                 </div>
@@ -666,7 +666,7 @@ export default function intership() {
                   <p className="text-center text-gray-700 font-bold md:text-lg px-4">
                     {t.internshipPage.frame2_title4}
                   </p>
-                  <p className="text-center m-4 font-medium text-gray-500">
+                  <p className="text-center m-4 font-medium text-gray-500 mt-5">
                     {t.internshipPage.frame2_text4_1}
                   </p>
                 </div>
@@ -694,7 +694,7 @@ export default function intership() {
                   C64,12.99,63.57,12.55,63.03,12.55z M62.06,49.51H1.94V14.49h60.12V49.51z"
                     />
                   </svg>
-                  <p className="text-gray-700 font-bold md:text-lg p-2">
+                  <p className="text-gray-700 font-bold md:text-lg p-2 mt-5 ml-5">
                     {t.internshipPage.frame2_title5}
                   </p>
                 </div>

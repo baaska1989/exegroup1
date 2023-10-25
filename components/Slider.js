@@ -9,7 +9,7 @@ const Slider = () => {
     const t = locale === 'jp' ? jp : en;
     return (
         <div
-            className="relative overflow-hidden bg-cover bg-no-repeat h-[16rem] md:h-[20rem] lg:h-[35rem] mb-4"
+            className="relative overflow-hidden bg-cover bg-no-repeat h-[28rem] md:h-[28rem] lg:h-[28rem] mb-4"
             style={{
                 backgroundPosition: "50%",
                 backgroundImage: 'url("/assets/img/starter.jpg")',
@@ -20,9 +20,13 @@ const Slider = () => {
                 style={{ backgroundColor: "rgba(0, 0, 0, 0)" }}
             >
                 <div className="md:mb-0 md:pb-4 md:max-w-3xl text-[#0E1447] font-medium" style={{fontSize: 60}}>
-                    <h3 className="text-xl sm:text-2xl md:text-5xl xl:text-6xl ">{t.slider1}</h3>
-                    <h3 className="text-xl sm:text-2xl md:text-5xl xl:text-6xl sm:mt-2 sm:pl-5 md:mt-2 md:pl-5 lg:pl-20 lg:mt-4">{t.slider2}</h3>
-                    <h3 className="text-xl sm:text-2xl md:text-5xl xl:text-6xl sm:mt-2 sm:pl-5 md:mt-2 md:pl-5 lg:pl-20 lg:mt-4">{t.slider3}</h3>
+                    <h3 className="text-xl sm:text-2xl md:text-5xl xl:text-5xl ">{t.slider1}</h3>
+                    <h3 className="text-xl sm:text-2xl md:text-5xl xl:text-5xl sm:mt-2 sm:pl-5 md:mt-2 md:pl-5 lg:pl-20 lg:mt-4">
+                        {t.slider2}
+                        </h3>
+                    <h3 className="text-xl sm:text-2xl md:text-5xl xl:text-5xl sm:mt-2 sm:pl-5 md:mt-2 md:pl-5 lg:pl-20 lg:mt-4">
+                        {t.slider3}
+                    </h3>
                 </div>
             </div>
         </div>
