@@ -223,7 +223,7 @@ export default function intership() {
                 <div className="md:text-2xl text-gray-700 mt-10 font-bold">
                   {t.internshipPage.title2}
                 </div>
-                <p className="text-gray-500 text-l break-words py-10" style={{fontSize: "1.06rem;"}}>
+                <p className="text-gray-500 text-l break-words py-10">
                   {t.internshipPage.text2_1}
                 </p>
               </div>
