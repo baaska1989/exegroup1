@@ -9,7 +9,7 @@ const Slider = () => {
     const t = locale === 'jp' ? jp : en;
     return (
         <div
-            className="relative overflow-hidden bg-cover bg-no-repeat h-[28rem] md:h-[28rem] lg:h-[28rem] mb-4"
+            className="relative overflow-hidden bg-cover bg-no-repeat h-[16rem] md:h-[20rem] lg:h-[28rem] mb-4"
             style={{
                 backgroundPosition: "50%",
                 backgroundImage: 'url("/assets/img/starter.jpg")',
