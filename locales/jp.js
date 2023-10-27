@@ -300,8 +300,8 @@ export default {
     table2_row1_2: "内容",
     table2_row1_21: "ヤンゴン到着",
     table2_row1_22: "オリエンテーシ ョン",
-    table2_row1_24: "ユニフォーム作 成",
-    table2_row1_26: "サクラカフェ研 修スタート",
+    table2_row1_24: "ユニフォーム作成",
+    table2_row1_26: "サクラカフェ研修スタート",
 
     table2_row2_2: "修スタート",
     table2_row3_2: "休暇",
