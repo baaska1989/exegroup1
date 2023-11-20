@@ -344,7 +344,7 @@ export default {
     table3_row10_2: "休暇",
     table3_row11_2: "レセプション研修（フロント）",
     table3_row12_2: "レセプション研修",
-    table3_row13_2: "休暇g",
+    table3_row13_2: "休暇",
     table3_row14_2: "レセプション研修",
     table3_row15_1: "ハウスキーピング研修",
     table3_row15_2:

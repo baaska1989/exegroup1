@@ -10,7 +10,7 @@ const Domesticprojects = () => {
     const { locale } = router;
     const t = locale === 'jp' ? jp : en;
     return (
-        <div className="pt-4 max-w-[1200px] mx-auto">
+        <div className="max-w-[1200px] mx-auto">
             <div className="flex justify-center">
                 <div className="grid md:grid-cols-2">
                     <div className="md:p-8">

@@ -188,7 +188,7 @@ export default function intership() {
             <div className="flex flex-col md:flex-row py-4">
               <img
                 src="/assets/img/woman1.jpeg"
-                className="h-52 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4"
+                className="h-52 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4 sm:p-4 p-5"
                 loading="lazy"
               />
               <p className="md:pl-4 text-gray-500 items-center ">
@@ -211,14 +211,14 @@ export default function intership() {
               </p>
               <img
                 src="/assets/img/guy1.jpg"
-                className="h-52 mt-5 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4 align-middle"
+                className="p-5 h-52 mt-5 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4 align-middle"
                 loading="lazy"
               />
             </div>
             <div className="flex flex-col md:flex-row py-4">
               <img
                 src="/assets/img/woman2.jpeg"
-                className="h-52 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4 align-middle"
+                className="p-5 h-52 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4 align-middle"
                 loading="lazy"
               />
               <p className="md:pl-4 md:pb-8 text-gray-500">
@@ -774,7 +774,7 @@ export default function intership() {
               </div>
               <div className="flex">
                 <svg
-                  style={{ minWidth: 100 }}
+                  style={{ minWidth: 100, marginTop: 20 }}
                   xmlns="http://www.w3.org/2000/svg"
                   className="pl-5 ml-3 mb-5 sm:w-20 sm:h-20 w-20 h-20 fill-current text-gray-700"
                   enableBackground="new 0 0 64 64"

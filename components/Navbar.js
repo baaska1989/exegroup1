@@ -52,7 +52,7 @@ export default function Navbar({ fixed }) {
                   type="button"
                   onClick={() => setNavbarOpen(!navbarOpen)}
               >
-                <i className="fas fa-bars mr-8 lg:mr-0"></i>
+                <i className="fas fa-bars sm:mr-4 md:mr-8 lg:mr-0"></i>
               </button>
             </div>
             <div
