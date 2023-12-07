@@ -53,6 +53,7 @@ const Footer = () => {
           <Link href="/contact"><a>{t.contact}</a></Link>
         </div>
         <div className="bg-darkblue grid gap-0 sm:grid-cols-2 md:grid-cols-7 lg:grid-cols-10 w-full p-4 md:p-12 text-xs md:text-base">
+          
           <div className="sm:col-span-1 md:col-span-3 lg:col-span-4 max-w-lg md:pl-4 mt-4 md:p-4">
             <h2 className="ml-4 underline text-gray-300 text-base mb-8">
               {t.footer.contactUs}
@@ -112,7 +113,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="font-bold max-w-lg mt-8 md:col-span-2 lg:col-span-2 pl-4">
+          <div className="font-bold max-w-lg mt-4 md:col-span-2 lg:col-span-2 pl-4">
             <h2 className="mb-5 text-gray-300 text-base underline">
               {t.footer.about}
             </h2>
@@ -127,7 +128,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="font-bold max-w-lg pl-4 pb-4 mt-4 md:p-4 md:col-span-2 lg:col-span-2">
+          <div className="font-bold max-w-lg pl-4 mt-4 md:p-4 md:col-span-2 lg:col-span-2">
             <h2 className="underline mb-5 text-gray-300 text-base">{t.footer.projects}</h2>
             <ul className="text-gray-300 font-light list-none">
               <li className="nav-item">
@@ -160,6 +161,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+
           <div className="font-bold max-w-lg pl-4 mt-4 md:p-4 md:ml-2 sm:col-span-1 md:col-span-3 lg:col-span-2">
             <h2 className="mb-5 text-gray-300 text-base underline ">
               {t.footer.inter}
@@ -181,14 +183,15 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+
         </div>
 
-        <a
-            className="to-top-button show px-3 py-2 mb-16 mr-8 border text-[12px] rounded-lg duration-300 bg-white"
-            href="#"
-        >
-          <i className="fa-sharp fa-solid fa-arrow-up"></i>
-        </a>
+            <a
+                className="to-top-button show px-3 py-2 mb-16 mr-8 border text-[12px] rounded-lg duration-300 bg-white"
+                href="#"
+            >
+              <i className="fa-sharp fa-solid fa-arrow-up"></i>
+            </a>
 
         <div className="text-center text-sm font-bold bg-darkblue text-gray-300 p-2">
           {t.footer.copyRight}
