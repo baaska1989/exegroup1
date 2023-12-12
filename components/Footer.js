@@ -132,7 +132,7 @@ const Footer = () => {
             <h2 className="underline mb-5 text-gray-300 text-base">{t.footer.projects}</h2>
             <ul className="text-gray-300 font-light list-none">
               <li className="nav-item">
-                <Link href="/overseas">
+                <Link href="#">
                   <a className="font-bold py-2 flex items-center text-base text-gray-300 hover:text-sky-300">
                     <span className="">{t.footer.overseasProjects}</span>
                   </a>
