@@ -182,16 +182,16 @@ export default function intership() {
           </div>
 
           <div className="max-w-6xl px-10">
-            <div className="text-gray-700 text-center p-10 font-bold md:text-2xl">
+            <div className="text-gray-700 text-center md:p-8 sm:p-4 lg:p-8 font-bold md:text-2xl mt-4">
               {t.internshipPage.title1}
             </div>
-            <div className="flex flex-col md:flex-row py-4">
+            <div className="flex flex-col md:flex-row py-4 sm:py-4">
               <img
                 src="/assets/img/woman1.jpeg"
-                className="h-52 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4 sm:p-4 p-5"
+                className="h-52 lg:mt-8 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4 sm:p-4 p-5"
                 loading="lazy"
               />
-              <p className="md:pl-4 text-gray-500 items-center ">
+              <p className="md:pl-4 mt-4 text-gray-500 items-center ">
                 {t.internshipPage.text1_1}
                 <br></br>
                 <br></br>
@@ -200,8 +200,8 @@ export default function intership() {
                 {t.internshipPage.text1_3}
               </p>
             </div>
-            <div className="flex flex-col-reverse md:flex-row py-4">
-              <p className="p-4 text-gray-500 ">
+            <div className="flex flex-col-reverse md:flex-row mt-4 py-4">
+              <p className="p-4 sm:pb-4 text-gray-500 ">
                 {t.internshipPage.text1_4}
                 <br></br>
                 <br></br>
@@ -211,17 +211,18 @@ export default function intership() {
               </p>
               <img
                 src="/assets/img/guy1.jpg"
-                className="p-5 h-52 mt-5 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4 align-middle"
+                className="p-5 lg:mt-8 h-52 mt-0 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4 align-middle"
                 loading="lazy"
               />
             </div>
-            <div className="flex flex-col md:flex-row py-4">
+
+            <div className="flex flex-col mt-2 md:flex-row">
               <img
                 src="/assets/img/woman2.jpeg"
-                className="p-5 h-52 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4 align-middle"
+                className="p-5 lg:mt-8 h-52 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4 align-middle"
                 loading="lazy"
               />
-              <p className="md:pl-4 md:pb-8 text-gray-500">
+              <p className="md:pl-4 mt-4 md:pb-8 text-gray-500">
                 {t.internshipPage.text1_7}
                 <br></br>
                 <br></br>
@@ -230,7 +231,7 @@ export default function intership() {
                 {t.internshipPage.text1_9}
               </p>
             </div>
-            <div className="bg-[#f6fafd] p-4">
+            <div className="bg-[#f6fafd] p-4 mt-4">
               <div className="md:text-2xl text-gray-700 mt-10 font-bold">
                 {t.internshipPage.title2}
               </div>
