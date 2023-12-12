@@ -158,7 +158,7 @@ export default function intership() {
               />
               {locale == "jp" ? (
                 <img
-                  src="/assets/img/text_box.png"
+                  src="/assets/img/text_box-1.png"
                   className="h-42  w-[800px] mx-auto p-2"
                   loading="lazy"
                 />
