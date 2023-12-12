@@ -140,14 +140,14 @@ const Footer = () => {
               </li>
               <li className="nav-item">
                 <Link href="/myanmar">
-                  <a className="font-bold py-2 flex items-center text-base text-gray-300 hover:text-sky-300">
+                  <a className="font-bold ml-2 my-2 py-2 flex items-center text-base text-gray-300 hover:text-sky-300">
                     <span className="">- {t.footer.myanmar}</span>
                   </a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="/mongolia">
-                  <a className="font-bold py-2 flex items-center text-base text-gray-300 hover:text-sky-300">
+                  <a className="font-bold ml-2 my-2 py-2 flex items-center text-base text-gray-300 hover:text-sky-300">
                     <span className="">- {t.footer.mongolia}</span>
                   </a>
                 </Link>
