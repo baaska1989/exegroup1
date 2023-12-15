@@ -63,6 +63,7 @@ export default function Navbar({ fixed }) {
                 id="example-navbar-danger"
             >
               <ul className="flex flex-col lg:flex-row list-none lg:ml-auto justify-start">
+
                 <li className="nav-item">
                   <Link href="/">
                     <a className="px-3 py-2 flex items-center text-sm uppercase leading-snug text-white hover:text-sky-300">

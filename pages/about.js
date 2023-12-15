@@ -15,7 +15,7 @@ const about = () => {
       </Head>
       <MainLayout>
         <div
-          className="relative overflow-hidden bg-cover bg-no-repeat h-[26rem] md:h-[20rem] lg:h-[28rem]"
+          className="relative overflow-hidden bg-cover bg-no-repeat h-[16rem] md:h-[20rem] lg:h-[28rem]"
           style={{
             backgroundPosition: "50%",
             backgroundImage: 'url("/assets/img/mv.jpg")',
