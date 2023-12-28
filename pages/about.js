@@ -104,6 +104,7 @@ const about = () => {
                 <br></br>
                 {t.aboutPage.row3_23}
                 <br></br>
+                <a className="">{t.aboutPage.row3_email}</a>
                 <a className="">{t.aboutPage.row3_24}</a>
                 <br></br>
                 {t.aboutPage.row3_25}

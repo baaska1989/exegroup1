@@ -181,11 +181,11 @@ export default function intership() {
             </div>
           </div>
 
-          <div className="max-w-6xl px-10">
+          <div className="max-w-6xl px-4">
             <div className="text-gray-700 text-center md:p-8 sm:p-4 lg:p-8 font-bold md:text-2xl mt-4">
               {t.internshipPage.title1}
             </div>
-            <div className="flex flex-col md:flex-row py-4 sm:py-4">
+            <div className="flex flex-col-reverse md:flex-row py-4">
               <img
                 src="/assets/img/woman1.jpeg"
                 className="h-52 lg:mt-8 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4 sm:p-4 p-5"
@@ -201,7 +201,7 @@ export default function intership() {
               </p>
             </div>
             <div className="flex flex-col-reverse md:flex-row mt-4 py-4">
-              <p className="p-4 sm:pb-4 text-gray-500 ">
+              <p className="sm:pb-4 text-gray-500 ">
                 {t.internshipPage.text1_4}
                 <br></br>
                 <br></br>
@@ -239,7 +239,7 @@ export default function intership() {
                 {t.internshipPage.text2_1}
               </p>
             </div>
-            <div className="break-word text-lg mt-5 text-gray-500 p-5">
+            <div className="break-word text-lg mt-5 text-gray-500">
               <p>{t.internshipPage.text2}</p>
               <p className="mt-5">{t.internshipPage.text3}</p>
             </div>
