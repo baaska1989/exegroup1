@@ -87,7 +87,7 @@ const myanmar = () => {
                 </h1>
                 <div className="lg:flex block">
                   <div className="flex text-justify">
-                    <div className="text-lg font-medium w-auto lg:h-auto md:py-4 pb-8 text-gray-500 max-w-4xl p-4 indent-4">
+                    <div className="text-lg font-medium w-auto lg:h-auto md:py-4 pb-8 text-gray-500 max-w-4xl indent-4">
                       <p>
                         {t.myanmarPage.text1}
                       </p>
