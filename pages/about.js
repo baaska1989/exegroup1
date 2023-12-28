@@ -104,6 +104,7 @@ const about = () => {
                 <br></br>
                 {t.aboutPage.row3_23}
                 <br></br>
+                {t.aboutPage.row3_23_fax} <br />
                 <span className="">{t.aboutPage.row3_email}</span>
                 <a className="" style={{ fontSize: "13px" }}>
                   {t.aboutPage.row3_24}
@@ -113,7 +114,8 @@ const about = () => {
                 <br></br>
                 {t.aboutPage.row3_26}
                 <br></br>
-                {t.aboutPage.row3_27}
+                {t.aboutPage.row3_27} <br />
+                {t.aboutPage.row3_27_email}
               </div>
             </div>
             <div className="items-center divide-black grid grid-cols-3 divide-x border-t-2 border-r-2 border-l-2 border-t-black border-r-black border-l-black">

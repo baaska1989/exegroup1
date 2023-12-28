@@ -52,7 +52,7 @@ export default function Navbar({ fixed }) {
                   type="button"
                   onClick={() => setNavbarOpen(!navbarOpen)}
               >
-                <i className="fas fa-bars sm:mr-4 md:mr-8 lg:mr-0" style={{marginRight: "-40px", marginTop: "-5px"}}></i>
+                <i className="fas fa-bars sm:mr-4 md:mr-8 lg:mr-0" style={{marginRight: "-50px", marginTop: "-5px"}}></i>
               </button>
             </div>
             <div

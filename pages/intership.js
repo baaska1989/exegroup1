@@ -188,9 +188,9 @@ export default function intership() {
             <div className="flex flex-col-reverse md:flex-row py-4">
               <img
                 src="/assets/img/woman1.jpeg"
-                className="h-52 lg:mt-8 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4 sm:p-4 p-5"
+                className="h-52 lg:mt-8 sm:object-cover mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4 sm:p-4 p-5"
                 loading="lazy"
-              />
+              /> <br />
               <p className="md:pl-4 mt-4 text-gray-500 items-center ">
                 {t.internshipPage.text1_1}
                 <br></br>
