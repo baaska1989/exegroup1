@@ -104,8 +104,10 @@ const about = () => {
                 <br></br>
                 {t.aboutPage.row3_23}
                 <br></br>
-                <a className="">{t.aboutPage.row3_email}</a>
-                <a className="">{t.aboutPage.row3_24}</a>
+                <span className="">{t.aboutPage.row3_email}</span>
+                <a className="" style={{ fontSize: "13px" }}>
+                  {t.aboutPage.row3_24}
+                </a>
                 <br></br>
                 {t.aboutPage.row3_25}
                 <br></br>
