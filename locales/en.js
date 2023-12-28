@@ -45,7 +45,8 @@ export default {
     row3_21: "Yangon Office (Myanmar)",
     row3_22:
       "#0505 Sakura Tower, 339 Bogyoke Aung San Road, Kyauktada Township, Yangon, Myanmar",
-    row3_23: "Tel: (951) 255 255 / Fax: (951) 255 258 /",
+    row3_23: "Tel: (951) 255 255",
+    row3_fax: "Fax: (951) 255 258 /",
     row3_24: "stowersales@myanmar.com.mm",
     row3_email: "E-mail: ",
     row3_25: "Ulaanbaatar Office (Mongolia)",

@@ -47,13 +47,15 @@ export default {
     row3_21: "ヤンゴン・オフィス（ミャンマー）",
     row3_22:
       "#0505 Sakura Tower, 339 Bogyoke Aung San Road, Kyauktada Township, Yangon, Myanmar",
-    row3_23: "Tel: (951) 255 255 / Fax: (951) 255 258 /",
+    row3_23: "Tel: (951) 255 255",
+    row3_23_fax: "Fax: (951) 255 258",
     row3_24: "stowersales@myanmar.com.mm",
     row3_email: "E-mail: ",
     row3_25: "ウランバートル・オフィス（モンゴル）",
     row3_26:
       "Tumurchin Avenue 7/1, Chingeltei District, Ulaanbaatar 15171 Mongolia",
-    row3_27: "Tel (976) 9999 8306 / E-mail info@exe.edu.mn",
+    row3_27: "Tel: (976) 9999 8306",
+    row3_27_email: "E-mail: info@exe.edu.mn",
     row4_1: "資本金",
     row4_2: "99,000,000円",
     row5_1: "事業内容",

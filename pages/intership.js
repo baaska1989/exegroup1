@@ -101,7 +101,7 @@ export default function intership() {
         </div>
 
         <div className="flex flex-col mx-auto max-w-6xl">
-          <p className="font-sans font-medium text-lg md:mt-8 mt-4 py-4 text-gray-500 mx-5">
+          <p className="font-sans font-medium md:mt-8 mt-4 py-4 text-gray-500 mx-4">
             {t.internshipPage.text1}
           </p>
           <div className="px-4">
