@@ -34,7 +34,7 @@ const contact = () => {
           </div>
 
           <div>
-            <div className="container my-12 px-6 mx-auto">
+            <div className="container mx-auto">
               {/* Section: Design Block */}
               <section className="mb-32 text-center text-gray-700">
                 <div className="max-w-[800px] mx-auto px-3">

@@ -144,7 +144,8 @@ export default {
   },
   mongoliaPage: {
     head_title: "Mongolia Projects",
-    title1: "Olonlog EXE IT School (Olonlog EXE)",
+    title1: "Olonlog EXE IT School",
+    title1_1: " (Olonlog EXE) ",
     text1_1:
       "Since 2010, we have been supporting the education sector in Mongolia and have executed a project to construct school buildings for a total of 3,500 students. In 2018, we established Olonlog EXE IT School, which offers Mongolia's first IT curriculum for elementary school students. The school currently has nearly 500 excellent students from 1st grade to high school, diligently studying to become a driving force in Mongolia's digital age.",
     text1_2:

@@ -20,7 +20,7 @@ const Recruitment = () => {
             style={{ backgroundColor: "rgba(0, 0, 0, 0.25)" }}
         >
           <div className="flex justify-center items-center h-full ">
-            <div className="text-gray-700 p-10 opacity-80 max-w-2xl bg-gray-50">
+            <div className="text-gray-700 p-4 opacity-80 max-w-2xl bg-gray-50">
               <h4 className="font-normal text-md mb-2 text-black"></h4>
               <div>
                 <h2 className="font-semibold text-2xl md:text-3xl text-gray-800 pb-8 ">

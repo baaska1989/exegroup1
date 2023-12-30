@@ -185,12 +185,8 @@ export default function intership() {
             <div className="text-gray-700 text-center md:p-8 sm:p-4 lg:p-8 font-bold md:text-2xl mt-4">
               {t.internshipPage.title1}
             </div>
-            <div className="flex flex-col-reverse md:flex-row py-4">
-              <img
-                src="/assets/img/woman1.jpeg"
-                className="h-52 lg:mt-8 sm:object-cover mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4 sm:p-4 p-5"
-                loading="lazy"
-              /> <br />
+            <div className="flex flex-col-reverse md:flex-row">
+             
               <p className="md:pl-4 mt-4 text-gray-500 items-center ">
                 {t.internshipPage.text1_1}
                 <br></br>
@@ -199,9 +195,14 @@ export default function intership() {
                 <br></br>
                 {t.internshipPage.text1_3}
               </p>
+              <img
+                src="/assets/img/woman1.jpeg"
+                className="p-5 lg:mt-8 h-52 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4 align-middle"
+                loading="lazy"
+              />
             </div>
             <div className="flex flex-col-reverse md:flex-row mt-4 py-4">
-              <p className="sm:pb-4 text-gray-500 ">
+              <p className="sm:pb-4 text-gray-500 sm:mt-4" style={{marginTop: "10px"}}>
                 {t.internshipPage.text1_4}
                 <br></br>
                 <br></br>
@@ -245,7 +246,7 @@ export default function intership() {
             </div>
           </div>
           <br />
-          <div className="row md:px-10 px-4">
+          <div className="row md:px-6 px-6">
             <div className=" border-collapse border border-1 border-gray-500 text-center font-lg bg-darkblue text-white p-4">
               {t.internshipPage.table1}
             </div>
@@ -559,10 +560,10 @@ export default function intership() {
             </div>
           </div>
 
-          <p className="mt-10 mb-10 m-6 font-medium text-lg text-gray-500">
+          <p className="mt-4 m-4 font-medium text-lg text-gray-500">
             {t.internshipPage.text6}
           </p>
-          <h1 className="font-bold md:text-2xl text-gray-700 ml-8 mt-5 mb-2">
+          <h1 className="font-bold md:text-2xl text-center text-gray-700 mt-4 mb-4">
             {t.internshipPage.table3_title}
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-2">
@@ -721,7 +722,7 @@ export default function intership() {
               </div>
             </div>
           </div>
-          <p className="mt-10 mb-10 m-6 font-medium text-lg text-gray-500">
+          <p className="mt-10 mb-10 m-4 text-left font-medium text-lg text-gray-500">
             {t.internshipPage.text_frame}
           </p>
           <div className="mx-4">

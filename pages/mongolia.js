@@ -92,10 +92,11 @@ const mongolia = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="px-4 md:pl-10 col-span-1">
                 <h1 className="font-bold text-2xl md:text-3xl text-gray-700 mt-8 text-center md:text-left">
-                  {t.mongoliaPage.title1}
+                  {t.mongoliaPage.title1} <br />
+                  {t.mongoliaPage.title1_1}
                 </h1>
                 <div className="lg:flex block">
-                  <div className="flex text-justify">
+                  <div className="flex text-left">
                     <div className="text-lg font-medium w-auto lg:h-auto md:py-4 pb-8 text-gray-500 max-w-4xl py-4 indent-4">
                       {t.mongoliaPage.text1_1}
                       <br></br>

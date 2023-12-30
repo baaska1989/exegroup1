@@ -86,7 +86,7 @@ const myanmar = () => {
                   {t.myanmarPage.title1}
                 </h1>
                 <div className="lg:flex block">
-                  <div className="flex text-justify">
+                  <div className="flex text-left">
                     <div className="text-lg font-medium w-auto lg:h-auto md:py-4 pb-8 text-gray-500 max-w-4xl indent-4">
                       <p>
                         {t.myanmarPage.text1}

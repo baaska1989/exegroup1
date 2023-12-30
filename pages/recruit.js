@@ -276,12 +276,15 @@ export default function recruit() {
                       </Accordion>
                       <Accordion open={open === 5}>
                         <AccordionHeader onClick={() => handleOpen(5)}>
-                          <p className="text-gray-700 font-medium">
+                          <p
+                            className="text-gray-700 font-medium"
+                            style={{ textAlign: "left;" }}
+                          >
                             {t.recruitPage.question5}
                           </p>
                         </AccordionHeader>
                         <AccordionBody>
-                          <p className="text-gray-500 font-medium">
+                          <p className="text-gray-500 font-medium text-left">
                             {t.recruitPage.answer5}
                           </p>
                         </AccordionBody>
