@@ -202,7 +202,7 @@ export default function intership() {
               />
             </div>
             <div className="flex flex-col-reverse md:flex-row mt-4 py-4">
-              <p className="sm:pb-4 text-gray-500 sm:mt-4" style={{marginTop: "10px"}}>
+              <p className="sm:pb-4 text-gray-500 mt-4 sm:mt-4">
                 {t.internshipPage.text1_4}
                 <br></br>
                 <br></br>
