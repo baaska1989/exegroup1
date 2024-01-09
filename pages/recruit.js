@@ -220,7 +220,7 @@ export default function recruit() {
               </div>
               <div className="flex justify-center">
                 <div>
-                  <h2 className="font-bold text-2xl md:text-3xl text-gray-700 text-center  md:m-4">
+                  <h2 className="font-bold text-2xl md:text-3xl text-gray-700 text-center md:m-4">
                     {t.recruitPage.title2}
                   </h2>
 
@@ -232,7 +232,7 @@ export default function recruit() {
                             {t.recruitPage.question1}
                           </p>
                         </AccordionHeader>
-                        <AccordionBody>
+                        <AccordionBody className="text-medium font-lg text-lg">
                           <p className="text-gray-500 font-lg">
                             {t.recruitPage.answer1}
                           </p>

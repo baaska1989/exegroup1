@@ -186,7 +186,6 @@ export default function intership() {
               {t.internshipPage.title1}
             </div>
             <div className="flex flex-col-reverse md:flex-row">
-             
               <p className="md:pl-4 mt-4 text-gray-500 items-center ">
                 {t.internshipPage.text1_1}
                 <br></br>
@@ -246,7 +245,7 @@ export default function intership() {
             </div>
           </div>
           <br />
-          <div className="row md:px-6 px-6">
+          <div className="row md:4 px-4">
             <div className=" border-collapse border border-1 border-gray-500 text-center font-lg bg-darkblue text-white p-4">
               {t.internshipPage.table1}
             </div>
@@ -395,7 +394,7 @@ export default function intership() {
 
           <div className="grid grid-cols-1 md:grid-cols-2">
             <div className="flex basis-1/3">
-              <div className="grid md:ml-0 p-4 " style={{ width: "100%" }}>
+              <div className="grid md:ml-0 py-4 " style={{ width: "100%" }}>
                 <div className="divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 bg-darkblue border-gray-500">
                   <div className="text-center font-medium text-white m-3 border-gray-500">
                     {t.internshipPage.table2_row1_1}
@@ -527,8 +526,11 @@ export default function intership() {
               </div>
             </div>
 
-            <div className="mt-5">
-              <div className="mb-5 p-4">
+            <div className="">
+              <div
+                className="mb-5 p-4"
+                style={{ paddingRight: "0px !important" }}
+              >
                 <div className="items-center divide-gray-500 grid grid-cols-3 divide-x-2 md:mr-5 border-t-2 border-r-2 border-l-2 border-gray-500">
                   <div className="text-center font-medium m-3 text-gray-500">
                     {t.internshipPage.table2_row15_1}
@@ -545,7 +547,7 @@ export default function intership() {
                     {t.internshipPage.table2_row16_2}
                   </div>
                 </div>
-                <div className="items-center divide-gray-500 grid grid-cols-3 divide-x-2 md:mr-5 border-2 border-gray-500">
+                <div className="items-center divide-gray-500 grid grid-cols-3 divide-x-2 md:mr-5 border-b-2 border-l-2 border-r-2  border-gray-500">
                   <div className="text-center font-medium m-3 text-gray-500">
                     {t.internshipPage.table2_row17_1}
                   </div>
@@ -554,7 +556,7 @@ export default function intership() {
                   </div>
                 </div>
               </div>
-              <div className="md:pl-4 md:p-8 px-4">
+              <div className="md:pl-4 px-4">
                 <ImageGallery items={images} />
               </div>
             </div>
@@ -698,8 +700,8 @@ export default function intership() {
               </div>
             </div>
 
-            <div className="mt-5">
-              <div className="mb-5 p-4">
+            <div className="">
+              <div className="mb-5 p-4" style={{ marginRight: 0 }}>
                 <div className="items-center divide-gray-500 grid grid-cols-3 divide-x-2 md:mr-5 border-t-2 border-r-2 border-l-2 border-gray-500">
                   <div className="text-center font-medium m-3 text-gray-500">
                     {t.internshipPage.table3_row15_1}
@@ -810,7 +812,7 @@ export default function intership() {
               </div>
             </div>
           </div>
-          <div className="md:px-6 mt-4">
+          <div className="md:px-4 mt-4">
             <div>
               <h2 className="font-bold md:text-2xl text-gray-700 text-center my-6">
                 {t.internshipPage.frame2_title1}
