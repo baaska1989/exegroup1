@@ -50,7 +50,7 @@ export default function recruit() {
             </div>
           </div>
           <div className="max-w-[1200px] mx-auto">
-            <div className="mx-auto text-left text-lg p-4 md:px-24 text-gray-500">
+            <div className="mx-auto text-left p-4 md:px-24 text-gray-500">
               <p className="mt-4">{t.recruitPage.text1}</p>
               <h1 className="mt-2">{t.recruitPage.text2}</h1>
               <p className="mt-2">{t.recruitPage.text3}</p>
@@ -212,7 +212,7 @@ export default function recruit() {
                     中塚翔大（Shota Nakatsuka）　<br></br>Recruiter
                   </h3>
                   <div className="mt-32">
-                    <p className="lg:-mt-40 m-4 md:mr-20 sm:-mt-32 -mt-32 text-gray-500">
+                    <p className="lg:-mt-40 m-4 md:mr-20 font-lg sm:-mt-32 -mt-32 text-gray-500">
                       {t.recruitPage.text4}
                     </p>
                   </div>

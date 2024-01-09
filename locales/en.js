@@ -518,4 +518,4 @@ export default {
   contactPage: {
     title: "Contact",
   },
-};
+}; 
