@@ -233,7 +233,7 @@ export default function recruit() {
                           </p>
                         </AccordionHeader>
                         <AccordionBody>
-                          <p className="text-gray-500 font-medium">
+                          <p className="text-gray-500 font-lg">
                             {t.recruitPage.answer1}
                           </p>
                         </AccordionBody>
