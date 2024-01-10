@@ -90,7 +90,7 @@ export default function intership() {
                 {t.internshipPage.head_title1}
               </h1>
             </div>
-            <div className="text-sm pl-8 md:pl-16 md:text-2xl lg:text-3xl lg:mt-16 font-bold justify-start text-white">
+            <div className="text-lg pl-8 md:pl-16 md:text-2xl lg:text-3xl lg:mt-16 font-bold justify-start text-white">
               <h3>{t.internshipPage.head_title2}</h3>
               <h3 className="ml-4">{t.internshipPage.head_title3}</h3>
             </div>
@@ -118,7 +118,7 @@ export default function intership() {
                       className="h-48 w-auto mx-auto hidden md:block"
                       loading="lazy"
                     />
-                    <div className="text-gray-500 md:px-20 px-4 py-5 md:text-lg text-sm">
+                    <div className="text-gray-500 md:px-20 px-4 py-5 md:text-lg text-lg font-medium">
                       ・{t.internshipPage.frame_text1_1}
                       <br /> ・{t.internshipPage.frame_text1_2}
                       <br /> ・{t.internshipPage.frame_text1_3}
