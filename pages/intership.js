@@ -526,7 +526,7 @@ export default function intership() {
                 className="mb-5 p-4"
                 style={{ paddingRight: "0px !important" }}
               >
-                <div className="items-center divide-gray-500 grid grid-cols-3 divide-x-2 md:mr-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                <div className="items-center divide-gray-500 grid grid-cols-3 divide-x-2 border-t-2 border-r-2 border-l-2 border-gray-500">
                   <div className="text-center font-medium m-3 text-gray-500">
                     {t.internshipPage.table2_row15_1}
                   </div>
@@ -534,7 +534,7 @@ export default function intership() {
                     {t.internshipPage.table2_row15_2}
                   </div>
                 </div>
-                <div className="items-center divide-gray-500 grid grid-cols-3 divide-x-2 md:mr-5 border-2 border-gray-500">
+                <div className="items-center divide-gray-500 grid grid-cols-3 divide-x-2 border-2 border-gray-500">
                   <div className="text-center font-medium m-3 text-gray-500">
                     {t.internshipPage.table2_row16_1}
                   </div>
@@ -542,7 +542,7 @@ export default function intership() {
                     {t.internshipPage.table2_row16_2}
                   </div>
                 </div>
-                <div className="items-center divide-gray-500 grid grid-cols-3 divide-x-2 md:mr-5 border-b-2 border-l-2 border-r-2  border-gray-500">
+                <div className="items-center divide-gray-500 grid grid-cols-3 divide-x-2 border-b-2 border-l-2 border-r-2  border-gray-500">
                   <div className="text-center font-medium m-3 text-gray-500">
                     {t.internshipPage.table2_row17_1}
                   </div>
