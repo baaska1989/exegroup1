@@ -6,7 +6,6 @@ import en from '../locales/en';
 import jp from '../locales/jp';
 import { useRouter } from "next/router";
 import { Fragment, useState } from "react";
-import styles from './styles.module.css'
 import {
   Accordion,
   AccordionHeader,
@@ -59,8 +58,6 @@ const images2 = [
   },
 ];
 
-// jdfjlgdflgkdfsngklndf
-
 export default function intership() {
   const router = useRouter();
   const { locale } = router;
@@ -101,7 +98,7 @@ export default function intership() {
         </div>
 
         <div className="flex flex-col mx-auto max-w-6xl">
-          <p className="font-sans font-medium md:mt-8 mt-4 py-4 text-gray-500 mx-4">
+          <p className="text-lg font-medium md:mt-8 mt-4 py-4 text-gray-500 mx-4">
             {t.internshipPage.text1}
           </p>
           <div className="px-4">
@@ -180,13 +177,12 @@ export default function intership() {
               </div>
             </div>
           </div>
-
           <div className="max-w-6xl px-4">
             <div className="text-gray-700 text-center md:p-8 sm:p-4 lg:p-8 font-bold md:text-2xl mt-4">
               {t.internshipPage.title1}
             </div>
             <div className="flex flex-col-reverse md:flex-row">
-              <p className="md:pl-4 mt-4 text-gray-500 items-center ">
+              <p className="md:pl-4 mt-4 text-gray-500 items-center text-lg font-medium">
                 {t.internshipPage.text1_1}
                 <br></br>
                 <br></br>
@@ -201,7 +197,7 @@ export default function intership() {
               />
             </div>
             <div className="flex flex-col-reverse md:flex-row mt-4 py-4">
-              <p className="sm:pb-4 text-gray-500 mt-4 sm:mt-4">
+              <p className="sm:pb-4 text-gray-500 mt-4 sm:mt-4 text-lg font-medium">
                 {t.internshipPage.text1_4}
                 <br></br>
                 <br></br>
@@ -222,7 +218,7 @@ export default function intership() {
                 className="p-5 lg:mt-8 h-52 mx-auto border-solid border-2 border-[#92ACDD] rounded-full md:p-4 align-middle"
                 loading="lazy"
               />
-              <p className="md:pl-4 mt-4 md:pb-8 text-gray-500">
+              <p className="md:pl-4 mt-4 md:pb-8 text-gray-500 text-lg font-medium">
                 {t.internshipPage.text1_7}
                 <br></br>
                 <br></br>
@@ -235,7 +231,7 @@ export default function intership() {
               <div className="md:text-2xl text-gray-700 mt-10 font-bold">
                 {t.internshipPage.title2}
               </div>
-              <p className="text-gray-500 text-l break-words py-10">
+              <p className="text-gray-500 text-lg font-medium break-words py-10">
                 {t.internshipPage.text2_1}
               </p>
             </div>
@@ -391,7 +387,6 @@ export default function intership() {
               {t.internshipPage.title3_1}
             </p>
           </div>
-
           <div className="grid grid-cols-1 md:grid-cols-2">
             <div className="flex basis-1/3">
               <div className="grid md:ml-0 py-4 " style={{ width: "100%" }}>
@@ -561,7 +556,6 @@ export default function intership() {
               </div>
             </div>
           </div>
-
           <p className="mt-4 m-4 font-medium text-lg text-gray-500">
             {t.internshipPage.text6}
           </p>
@@ -570,7 +564,7 @@ export default function intership() {
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-2">
             <div className="flex basis-1/3">
-              <div className="grid md:ml-0 p-4">
+              <div className="grid md:ml-0 py-4 w-full">
                 <div className="divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 bg-darkblue border-gray-500">
                   <div className="text-center font-bold text-white m-3">
                     {t.internshipPage.table3_row0_1}
@@ -702,7 +696,7 @@ export default function intership() {
 
             <div className="">
               <div className="mb-5 p-4" style={{ marginRight: 0 }}>
-                <div className="items-center divide-gray-500 grid grid-cols-3 divide-x-2 md:mr-5 border-t-2 border-r-2 border-l-2 border-gray-500">
+                <div className="items-center divide-gray-500 grid grid-cols-3 divide-x-2 border-t-2 border-r-2 border-l-2 border-gray-500">
                   <div className="text-center font-medium m-3 text-gray-500">
                     {t.internshipPage.table3_row15_1}
                   </div>
@@ -710,7 +704,7 @@ export default function intership() {
                     {t.internshipPage.table3_row15_2}
                   </div>
                 </div>
-                <div className="items-center divide-gray-500 grid grid-cols-3 divide-x-2 md:mr-5 border-2 border-gray-500">
+                <div className="items-center divide-gray-500 grid grid-cols-3 divide-x-2 border-2 border-gray-500">
                   <div className="text-center font-medium m-3 text-gray-500">
                     {t.internshipPage.table3_row16_1}
                   </div>
@@ -719,7 +713,7 @@ export default function intership() {
                   </div>
                 </div>
               </div>
-              <div className="md:pl-4 md:p-8 px-4">
+              <div className="md:pl-4 md:p-4 px-4">
                 <ImageGallery items={images2} />
               </div>
             </div>
@@ -993,12 +987,13 @@ export default function intership() {
                     </p>
                   </AccordionHeader>
                   <AccordionBody
+                    className="text-gray-700"
                     style={{
                       fontWeight: "500 !important",
                       fontSize: "1rem !important",
                     }}
                   >
-                    <p className="text-gray-700">{t.internshipPage.answer2}</p>
+                    <p className="text-gray-500">{t.internshipPage.answer2}</p>
                   </AccordionBody>
                 </Accordion>
                 <Accordion open={open === 3}>
@@ -1051,5 +1046,3 @@ export default function intership() {
     </>
   );
 }
-
-// fdhfhsoihgpiepgfhipsfhgpies

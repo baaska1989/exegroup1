@@ -10,47 +10,6 @@ const Footer = () => {
   const t = locale === 'jp' ? jp : en;
   return (
     <div className="bg-darkblue font-bold">
-      {/*<div className="sticky active:border-[3px] active:border-r-0 border-cyan-600 active:rounded my-[3px]">*/}
-      {/*  <div className="flex flex-grow fixed z-10 justify-end">*/}
-      {/*    <div className="dropdown relative">*/}
-      {/*      <ul*/}
-      {/*        className="dropdown-menu min-w-max absolute bg-white text-base z-50 float-left py-2 list-none text-left shadow-lg m-8 hidden bg-clip-padding border-none"*/}
-      {/*        aria-labelledby="dropdownMenuButton1tx"*/}
-      {/*      >*/}
-      {/*        <li>*/}
-      {/*          /!*<Link href="/">*!/*/}
-      {/*          /!*  <a className="dropdown-item px-2 md:px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">*!/*/}
-      {/*          /!*    日本語*!/*/}
-      {/*          /!*  </a>*!/*/}
-      {/*          /!*</Link>*!/*/}
-      {/*        </li>*/}
-      {/*        <li>*/}
-      {/*          /!*<Link href="/en">*!/*/}
-      {/*          /!*  <a className="dropdown-item px-2 md:px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">*!/*/}
-      {/*          /!*    {t.contact}*!/*/}
-      {/*          /!*  </a>*!/*/}
-      {/*          /!*</Link>*!/*/}
-      {/*        </li>*/}
-      {/*        /!* {router.locales.map((l) => (*/}
-      {/*            <li key={l}>*/}
-      {/*              <Link href={router.asPath} locale={l}>*/}
-      {/*                <a className="dropdown-item px-2 md:px-12 text-sm py-2 font-normal block w-full whitespace-nowrap bg-transparent text-gray-700 hover:bg-gray-100">*/}
-      {/*                  {l}*/}
-      {/*                </a>*/}
-      {/*              </Link>*/}
-      {/*            </li>*/}
-      {/*          ))} *!/*/}
-      {/*      </ul>*/}
-      {/*    </div>*/}
-      {/*  </div>*/}
-      {/*  /!* Language *!/*/}
-      {/*</div>*/}
-
-      {/*<div className="sticky active:border-[3px] active:border-r-0 border-cyan-600 active:rounded my-[3px] duration-150 ">*/}
-      {/*  <Link href="/contact">*/}
-      {/*    <a>{t.contact}</a>*/}
-      {/*  </Link>*/}
-      {/*</div>*/}
       <div className="bg-darkblue grid gap-0 sm:grid-cols-2 md:grid-cols-7 lg:grid-cols-10 w-full p-4 md:p-12 text-xs md:text-base">
 
         <div className="sm:col-span-1 md:col-span-3 lg:col-span-4 max-w-lg md:pl-4 mt-4 md:p-4">
