@@ -389,7 +389,10 @@ export default function intership() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2">
             <div className="flex basis-1/3">
-              <div className="grid md:ml-0 py-4 " style={{ width: "100%" }}>
+              <div
+                className="grid md:ml-0 sm:px-4 lg:px-0 px-4"
+                style={{ width: "100%" }}
+              >
                 <div className="divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 bg-darkblue border-gray-500">
                   <div className="text-center font-medium text-white m-3 border-gray-500">
                     {t.internshipPage.table2_row1_1}
@@ -523,7 +526,7 @@ export default function intership() {
 
             <div className="">
               <div
-                className="mb-5 p-4"
+                className="mb-5 p-4 sm:px-4 lg:px-0 pr-4 mr-4"
                 style={{ paddingRight: "0px !important" }}
               >
                 <div className="items-center divide-gray-500 grid grid-cols-3 divide-x-2 border-t-2 border-r-2 border-l-2 border-gray-500">
@@ -564,7 +567,7 @@ export default function intership() {
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-2">
             <div className="flex basis-1/3">
-              <div className="grid md:ml-0 py-4 w-full">
+              <div className="grid md:ml-0 lg:py-4 lg:px-0 px-4 w-full">
                 <div className="divide-gray-500 grid grid-cols-7 divide-x-2 md:ml-5 border-t-2 border-r-2 border-l-2 bg-darkblue border-gray-500">
                   <div className="text-center font-bold text-white m-3">
                     {t.internshipPage.table3_row0_1}
