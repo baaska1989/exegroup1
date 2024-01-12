@@ -40,7 +40,8 @@ export default {
     row1_1: "Representative Director and President ",
     row1_2: "Hitoshi Tani",
     row2_1: "Address",
-    row2_2: "1-10-5 Kojimachi, Chiyoda-ku, Tokyo, Japan",
+    row2_2:
+      "5F Quatre Saisons Kojimachi, 4-8-19 Kojimachi, Chiyoda-ku, Tokyo 102-0083, Japan",
     row3_1: "Overseas Offices",
     row3_21: "Yangon Office (Myanmar)",
     row3_22:
@@ -375,7 +376,7 @@ export default {
     frame2_title2:
       "Accommodation expenses are covered, and you only need to bear the costs of travel (including insurance), food, and living expenses.",
     frame2_text2_1:
-      "You will stay at Sakura Residence, operated by Excel Co., where Japanese staff are present, providing a sense of security. The residence offers facilities such as a gym and pool, and you can purchase Japanese food at the mini-mart. The restaurant also serves Japanese cuisine, making it a comfortable apartment where you can relax on your days off.",
+      "You will stay at Sakura Residence, operated by EXE Corporation, where Japanese staff are present, providing a sense of security. The residence offers facilities such as a gym and pool, and you can purchase Japanese food at the mini-mart. The restaurant also serves Japanese cuisine, making it a comfortable apartment where you can relax on your days off.",
     frame2_title3:
       "The average flight time is 10 hours and 38 minutes, with the lowest fare being 63,720 yen.",
     frame2_title4:
@@ -388,23 +389,23 @@ export default {
       "Since Myanmar was a British colony in 1886, both dollars and chat can be used as currency.",
     title4: "Employee Introduction - Thriving in Myanmar:",
     text7:
-      "After graduating from university, Yukiko gained one year of experience as an assistant store manager at Fast Retailing Co., Ltd. She then joined Excel Co., Ltd. and has been stationed in Myanmar since 2012. Currently, she oversees the operations and promotions of Sakura Tower and YangonYangon Rooftop Bar. At Excel, there is a culture of entrusting young professionals with significant responsibilities, providing opportunities to excel internationally. In Myanmar, she handles management aspects and collaborates with diverse Myanmar colleagues, which can be challenging but also rewarding, offering continuous learning experiences.",
+      "After graduating from university, Yukiko gained one year of experience as an assistant store manager at Fast Retailing Co., Ltd. She then joined EXE Corporation, and has been stationed in Myanmar since 2012. Currently, she oversees the operations and promotions of Sakura Tower and YangonYangon Rooftop Bar. At EXE Corporation, there is a culture of entrusting young professionals with significant responsibilities, providing opportunities to excel internationally. In Myanmar, she handles management aspects and collaborates with diverse Myanmar colleagues, which can be challenging but also rewarding, offering continuous learning experiences.",
     text8:
       "Having started as a sales executive, Cherry's career development in Myanmar as a General Manager presented an excellent opportunity. She emphasizes loyalty, commitment to the organization, and daily improvements as the key to future career advancement.",
     text9:
-      "Joining Excel (Sakura Residence) as a sales representative in 2008, Zar Ni Lwin was promoted to Residence Manager in 2012, overseeing the operations of Sakura Residence, a service apartment. Excel allows various motivational strategies and open discussions with colleagues, creating a happy work environment. She finds it fulfilling to balance both professional and private aspects of life here.",
+      "Joining EXE Corporation (Sakura Residence) as a sales representative in 2008, Zar Ni Lwin was promoted to Residence Manager in 2012, overseeing the operations of Sakura Residence, a service apartment. EXE Corporation allows various motivational strategies and open discussions with colleagues, creating a happy work environment. She finds it fulfilling to balance both professional and private aspects of life here.",
     text10:
-      "Immediately after university, Mio had a strong desire to work abroad, and she has been stationed in Myanmar for nine years since joining Excel. She gained experience in hotel, restaurant, service apartment operations, and also the establishment of select shops, rooftop bars, and morning markets. Yangon, with its diverse community of not only Japanese but also people from around the world, offers various cultural experiences, making it an exciting workplace for those with curiosity and a thirst for new challenges.",
+      "Immediately after university, Mio had a strong desire to work abroad, and she has been stationed in Myanmar for nine years since joining EXE Corporation. She gained experience in hotel, restaurant, service apartment operations, and also the establishment of select shops, rooftop bars, and morning markets. Yangon, with its diverse community of not only Japanese but also people from around the world, offers various cultural experiences, making it an exciting workplace for those with curiosity and a thirst for new challenges.",
     text11:
       "Working joyfully every day at YangonYangon, Myanmar's highest rooftop bar, with an excellent management team and cooperative colleagues, Phyoe finds this workplace surrounded by a family-like team, providing an energizing work atmosphere.",
     text12:
-      "After participating in an internship in 2014 and working in Bagan and Yangon for a year, Ryuta joined Excel as a new graduate. He is responsible for the operation department, primarily in the restaurant section. Though Myanmar's work essence is similar to Japan, the cultural and language differences require more intensive communication, leading to personal growth. Participating in Myanmar's dynamic social climate has been a valuable experience for him.",
+      "After participating in an internship in 2014 and working in Bagan and Yangon for a year, Ryuta joined EXE Corporation as a new graduate. He is responsible for the operation department, primarily in the restaurant section. Though Myanmar's work essence is similar to Japan, the cultural and language differences require more intensive communication, leading to personal growth. Participating in Myanmar's dynamic social climate has been a valuable experience for him.",
     text13:
-      "After working for four years in local Japanese media, Toru joined Excel in 2020. He is currently involved in the management, operation, and promotions of Sakura Tower, Sakura Residence, and YangonYangon Rooftop Bar. Myanmar is currently experiencing significant changes, but this environment provides growth opportunities, challenges, and chances to shine. For individuals with courage, charisma, and passion, this workplace welcomes you.",
+      "After working for four years in local Japanese media, Toru joined EXE Corporation in 2020. He is currently involved in the management, operation, and promotions of Sakura Tower, Sakura Residence, and YangonYangon Rooftop Bar. Myanmar is currently experiencing significant changes, but this environment provides growth opportunities, challenges, and chances to shine. For individuals with courage, charisma, and passion, this workplace welcomes you.",
     text14:
-      "Since 2011, Myo Zaw Oo has been part of Excel (Sakura Residence), accumulating over 16 years of experience in the hospitality industry. Through his positions in the front office and sales departments, he has reached the position of Assistant Residence Manager. Working at Excel has allowed him to improve leadership skills and engage deeply with multinational customers, cultures, and employees from both Japan and Myanmar. He believes this is an excellent environment for ambitious young professionals looking to enhance their career in Myanmar.",
+      "Since 2011, Myo Zaw Oo has been part of EXE Corporation (Sakura Residence), accumulating over 16 years of experience in the hospitality industry. Through his positions in the front office and sales departments, he has reached the position of Assistant Residence Manager. Working at EXE Corporation has allowed him to improve leadership skills and engage deeply with multinational customers, cultures, and employees from both Japan and Myanmar. He believes this is an excellent environment for ambitious young professionals looking to enhance their career in Myanmar.",
     text15:
-      "After working in overseas financing approval for a Japanese bank, Toshihide joined Excel and has been stationed as the Myanmar Director since 2011. While previously dealing with European and American work, Myanmar's vibrancy and dedication to the nation and city's development are highly motivating. Interacting with corporate expatriates and young entrepreneurs worldwide, he finds it a lively and reliable environment. Courage, enthusiasm, and a willingness to immerse oneself in various circles are vital qualities for success. He encourages others to take on this challenge.",
+      "After working in overseas financing approval for a Japanese bank, Toshihide joined EXE Corporation and has been stationed as the Myanmar Director since 2011. While previously dealing with European and American work, Myanmar's vibrancy and dedication to the nation and city's development are highly motivating. Interacting with corporate expatriates and young entrepreneurs worldwide, he finds it a lively and reliable environment. Courage, enthusiasm, and a willingness to immerse oneself in various circles are vital qualities for success. He encourages others to take on this challenge.",
     title5: "Frequently Asked Questions (FAQ):",
     question1: "What is Myanmar like as a country? ",
     answer1:
@@ -492,7 +493,7 @@ export default {
       "Since 2021, there have been security concerns due to the military regime. However, following the rules for expatriates' activities ensures a trouble-free experience. In over 40 internship placements, no troubles or accidents have occurred. For hygiene, caution is necessary when dining outside, so following the guidance of expatriates is essential.",
     question5: "Where will the stationed location be? ",
     answer5:
-      "You will be stationed at Sakura Residence, owned by Excel Co., Ltd. Japanese expatriates are also stationed here, providing a support system for any difficulties you may encounter.",
+      "You will be stationed at Sakura Residence, owned by EXE Corporation. Japanese expatriates are also stationed here, providing a support system for any difficulties you may encounter.",
     question6: "Is participating in the internship mandatory?",
     answer6:
       "Unlike a regular trip, living in Myanmar requires an understanding of local customs, culture, and habits. While participating in the internship is not mandatory, we recommend doing so before considering regular employment.",
@@ -500,7 +501,7 @@ export default {
   footer: {
     contactUs: "Contact Us",
     address:
-      "6F Sawada Kojimachi Building, 1-10-5 Kojimachi, Chiyoda-ku, Tokyo 102-0083",
+      "5F Quatre Saisons Kojimachi, 4-8-19 Kojimachi, Chiyoda-ku, Tokyo 102-0083",
     phone: "(81) 3-3288-2371",
     email: "info@exegroup.co.jp",
     about: "About",
@@ -513,7 +514,7 @@ export default {
     inter: "Internship & Recruitment",
     internship: "Internship",
     newGrad: "New Graduates & Mid-Career Recruitment",
-    copyRight: "Copyright © 2022 Excel Co., Ltd. All Rights Reserved.",
+    copyRight: "Copyright © 2022 EXE Corporation. All Rights Reserved.",
   },
   contactPage: {
     title: "Contact",

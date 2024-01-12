@@ -227,6 +227,7 @@ export default function intership() {
                 {t.internshipPage.text1_9}
               </p>
             </div>
+            
             <div className="bg-[#f6fafd] p-4 mt-4">
               <div className="md:text-2xl text-gray-700 mt-10 font-bold">
                 {t.internshipPage.title2}
