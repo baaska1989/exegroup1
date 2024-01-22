@@ -1,8 +1,8 @@
 import React from "react";
 import {useRouter} from "next/router";
-import jp from "../locales/jp";
-import en from "../locales/en";
-
+import jp from "../locales/jp.js";
+import en from "../locales/en.js";
+import cn from "../locales/cn.js"
 const Slider = () => {
     const router = useRouter();
     const { locale } = router;

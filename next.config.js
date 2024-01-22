@@ -5,7 +5,7 @@ const nextConfig = {
     },
     swcMinify: true,
     i18n: {
-        locales: ['jp', 'en'],
+        locales: ['jp', 'en', 'cn'],
         defaultLocale: 'jp',
         localeDetection: false,
     },

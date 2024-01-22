@@ -1,6 +1,7 @@
 import React from "react";
 import en from '../locales/en';
 import jp from '../locales/jp';
+import cn from '../locales/cn';
 import { useRouter } from "next/router";
 import Head from 'next/head';
 import MainLayout from "../layout/MainLayout";

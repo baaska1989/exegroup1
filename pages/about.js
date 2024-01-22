@@ -2,6 +2,7 @@ import React from "react";
 import MainLayout from "../layout/MainLayout";
 import en from '../locales/en';
 import jp from '../locales/jp';
+import cn from "../locales/cn";
 import { useRouter } from "next/router";
 import Head from 'next/head';
 const about = () => {
